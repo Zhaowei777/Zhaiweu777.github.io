@@ -1,9 +1,29 @@
-# Preface {.unnumbered}
+# About Me {.unnumbered}
 
-This is a Quarto book.
+Hello! I'm Zhaowei, a student deeply passionate about art, computer science, and urban science, and an enthusiast of music and photography. I am currently pursuing a master's degree at The Bartlett Centre for Advanced Spatial Analysis, University College London. Throughout my early education, I focused on honing my creative design and oil painting skills, dreaming of becoming an artist. I completed my Bachelor of Design at the University of Melbourne, where I also took foundational courses in artificial intelligence. During that time, I developed a basic understanding of urban planning, spatial engineering, and architecture, and realized the importance of computer science in everyday life and academia.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+These are some works from my personal photography studio:
 
-```{r}
-1 + 1
+![Art Work](image/artWork.jpg)
+
+My current research interests lie in the Internet of Things (IoT) technologies and smart cities. I believe that improving people's quality of life through data science and computer science technologies is a fascinating endeavor. Remote sensing technology significantly advances urban planning by offering detailed insights into land use and environmental changes, enabling sustainable development and improved resilience against environmental challenges. This website serves as my learning diary for the CASA0027 course, reflecting on and deepening my understanding of remote sensing knowledge. I hope everyone enjoys it and I welcome any criticism or praise!
+
+<blockquote style="background-color: #e9f5ec; padding: 10px;">
+
+<p style="margin: 0; font-style: italic; font-weight: bold;">
+
+"We can really say that we have achieved a level of remote sensing and Earth observation that we have never had before. We're in the golden age right now with these satellites."
+
+</p>
+
+<br>
+
+<footer style="margin-top: 10px;">
+
+```         
+                        Tim Newman, USGS National Land Imaging Program coordinator
 ```
+
+</footer>
+
+</blockquote>
