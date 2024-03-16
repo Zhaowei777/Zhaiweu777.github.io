@@ -250,6 +250,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="overview" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">1.1</span> Overview</h2>
+<p>1.1.1 Understanding Remote Sensing Remote sensing constitutes an integral component of Geographic Information Science (GIS), representing the technique and science of obtaining information about objects or areas from a distance, typically from satellites or aircraft. This week’s focus will be on exploring various data sources within remote sensing and its practical applications.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/image1.png" class="img-fluid figure-img"></p>
+<figcaption>Remote sensing</figcaption>
+</figure>
+</div>
+<p>Remote sensing is a tool, a way to observe the Earth, one of the sources of information. Remote sensing is included in the steps of data acquisition, data processing and data analysis. It acquires data about objects or areas from a distance. These recording techniques and image construction instruments are composed by sensors attached to unmanned aerial vehicle (UAV) or remotely piloted aircraft (RPA), drones, airplanes, or satellites; these sensors can be passive or active sensors such as sonar, radar or lidar attached to aircrafts or ships. Remote sensing is the science of obtaining information about objects or areas from a distance, typically from aircraft or spacecraft. Remote sensing is the process of detecting and monitoring the physical characteristics of an area by measuring its reflected and emitted radiation at a distance (typically from satellite or aircraft). Special cameras collect remotely sensed images, which help researchers “sense” things about the Earth.</p>
+<p>Some examples are: • Cameras on satellites and airplanes take images of large areas on the Earth’s surface, allowing us to see much more than we can see when standing on the ground. • Sonar systems on ships can be used to create images of the ocean floor without needing to travel to the bottom of the ocean. • Cameras on satellites can be used to make images of temperature changes in the oceans. <img src="image/image2.png" class="img-fluid" alt="information"></p>
+<p>1.1.2 Types of Remote Sensors Remote sensing technology employs two primary types of sensors: Active and Passive. Passive sensors depend on sunlight reflected off the Earth’s surface, which can be affected by clouds or atmospheric conditions. Conversely, active sensors emit their own signals toward the Earth and capture the reflected data, enabling their operation in darkness and through obstructions like clouds. The diagram below exemplifies these differences:</p>
+<p>1.1.3 Electromagnetic Signatures Passive sensors capture reflected radiation from Earth, with different materials reflecting various radiation types across the electromagnetic spectrum. Each sensor is tuned to specific wavelengths, offering unique insights. The following illustration delineates the electromagnetic spectrum and the operational range of different sensors:</p>
+<p>Certain radiation types penetrate the Earth’s atmosphere, notable for remote sensing applications.</p>
+<p>1.1.4 Data Resolutions Four critical resolutions define remote sensing data: - Spectral: Refers to the sensor’s ability to capture different wavelength bands. - Spatial: Describes the pixel size, affecting detail level. - Temporal: Indicates how often a sensor revisits a specific location. - Radiometric: Denotes the range of detected reflectance values.</p>
+<p>1.1.5 Sentinel 2 Sentinel 2 offers advantages over Landsat 8, including higher resolution across most bands, shorter revisit times, and additional spectral bands. An intriguing use case involved detecting a gas leak in the Nord Stream pipeline following seismic activities, as illustrated in the animation below:</p>
+<p>Furthermore, Sentinel-2’s resolution aids in monitoring sea ice and glacier dynamics, offering insights into environmental changes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/image3.png" class="img-fluid figure-img"></p>
+<figcaption>examples of difference</figcaption>
+</figure>
+</div>
+<p>1.1.6 Landsat With a history spanning over five decades, Landsat’s contributions to Earth observation are substantial. An early success was the identification of Landsat Island, demonstrating its exploration capabilities.</p>
+<p>Current Landsat missions continue to provide valuable data. My preliminary analysis involved creating a true-color composite of Cape Town and examining spectral signatures via R, illustrating diverse applications of Landsat data.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/image4.png" class="img-fluid figure-img"></p>
+<figcaption>progress details</figcaption>
+</figure>
+</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
