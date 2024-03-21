@@ -1,1 +1,3 @@
 # week 6 - intro to GEE
+
+![Mind map](image/week6Image.png)

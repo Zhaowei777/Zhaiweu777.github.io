@@ -223,6 +223,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1.1</span> Overview</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">1.2</span> Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">1.3</span> Reflection</a></li>
   </ul>
 </nav>
     </div>
@@ -253,38 +255,79 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><span style="color:blue;">Week1, let’s start with a ‘simple’ question: What is remote sensing?</span></p>
 <p>NASA defined Remote sensing as an acquisition of information from a distance. In my understanding, this tech involves acquiring data about entities or regions without direct physical interaction. Typically, it is achieved by detecting and documenting energy that is either reflected or emitted, followed by the processing, analysis, and utilization of this data.</p>
 <p>Its implementation is through sensors mounted on various platforms: like Satellites, Airplanes (for aerial imagery), Drones and Smartphones. There are over 150 satellites in orbit equipped with sensors for remote sensing.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/image1.png" class="img-fluid figure-img"></p>
-<figcaption>Remote sensing</figcaption>
-</figure>
-</div>
-<p>Remote sensing is a tool, a way to observe the Earth, one of the sources of information. Remote sensing is included in the steps of data acquisition, data processing and data analysis. It acquires data about objects or areas from a distance. These recording techniques and image construction instruments are composed by sensors attached to unmanned aerial vehicle (UAV) or remotely piloted aircraft (RPA), drones, airplanes, or satellites; these sensors can be passive or active sensors such as sonar, radar or lidar attached to aircrafts or ships. Remote sensing is the science of obtaining information about objects or areas from a distance, typically from aircraft or spacecraft. Remote sensing is the process of detecting and monitoring the physical characteristics of an area by measuring its reflected and emitted radiation at a distance (typically from satellite or aircraft). Special cameras collect remotely sensed images, which help researchers “sense” things about the Earth.</p>
-<p>Some examples are: • Cameras on satellites and airplanes take images of large areas on the Earth’s surface, allowing us to see much more than we can see when standing on the ground. • Sonar systems on ships can be used to create images of the ocean floor without needing to travel to the bottom of the ocean. • Cameras on satellites can be used to make images of temperature changes in the oceans. <img src="image/image2.png" class="img-fluid" alt="information"></p>
-<p>What types of remote sensing are there?</p>
-<p>There are manly two types of sensor:</p>
+<p><img src="image/image1.png" class="img-fluid" alt="Remote sensing"> <span style="color:blue;">Oh,I see,easy one. What types of sensors are there?</span></p>
+<p>There are mainly two types of sensors:</p>
 <p>Active sensors are equipped with their own illumination source, actively emitting electromagnetic waves and then measuring the backscatter that returns to the sensor. Examples like: Radar and LiDAR. Their application includes generating precise digital elevation models through the Shuttle Radar Topography Mission (SRTM), monitoring rainforest depletion via LiDAR technology, and supporting security measures with its effectiveness in marine and Arctic surveillance.</p>
-<p>Conversely, passive sensors don’t emit anything. They rely on natural light, detecting reflected energy(in electromagnetic waves) from the sun. Examples like: Landsat series and IRS-series. The Landsat series, active for over four decades, stands as the most enduring Earth observation initiative in passive remote sensing. It provides critical insights into Earth’s climate, ecosystems, and land use changes, serving as a historical marker for environmental transformation.</p>
-<p>1.1.2 Types of Remote Sensors Remote sensing technology employs two primary types of sensors: Active and Passive. Passive sensors depend on sunlight reflected off the Earth’s surface, which can be affected by clouds or atmospheric conditions. Conversely, active sensors emit their own signals toward the Earth and capture the reflected data, enabling their operation in darkness and through obstructions like clouds. The diagram below exemplifies these differences:</p>
-<p>1.1.3 Electromagnetic Signatures Passive sensors capture reflected radiation from Earth, with different materials reflecting various radiation types across the electromagnetic spectrum. Each sensor is tuned to specific wavelengths, offering unique insights. The following illustration delineates the electromagnetic spectrum and the operational range of different sensors:</p>
-<p>Certain radiation types penetrate the Earth’s atmosphere, notable for remote sensing applications.</p>
-<p>1.1.4 Data Resolutions Four critical resolutions define remote sensing data: - Spectral: Refers to the sensor’s ability to capture different wavelength bands. - Spatial: Describes the pixel size, affecting detail level. - Temporal: Indicates how often a sensor revisits a specific location. - Radiometric: Denotes the range of detected reflectance values.</p>
-<p>1.1.5 Sentinel 2 Sentinel 2 offers advantages over Landsat 8, including higher resolution across most bands, shorter revisit times, and additional spectral bands. An intriguing use case involved detecting a gas leak in the Nord Stream pipeline following seismic activities, as illustrated in the animation below:</p>
-<p>Furthermore, Sentinel-2’s resolution aids in monitoring sea ice and glacier dynamics, offering insights into environmental changes.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image/image3.png" class="img-fluid figure-img"></p>
-<figcaption>examples of difference</figcaption>
-</figure>
-</div>
-<p>1.1.6 Landsat With a history spanning over five decades, Landsat’s contributions to Earth observation are substantial. An early success was the identification of Landsat Island, demonstrating its exploration capabilities.</p>
-<p>Current Landsat missions continue to provide valuable data. My preliminary analysis involved creating a true-color composite of Cape Town and examining spectral signatures via R, illustrating diverse applications of Landsat data.</p>
+<p>Conversely, passive sensors don’t emit anything. They rely on natural light, detecting reflected energy (in electromagnetic waves) from the sun. Examples like: Landsat series and IRS-series. The Landsat series, active for over four decades, stands as the most enduring Earth observation initiative in passive remote sensing. It provides critical insights into Earth’s climate, ecosystems, and land use changes, serving as a historical marker for environmental transformation.</p>
+<p><img src="image/image2.png" class="img-fluid" alt="Remote sensing"> <span style="color:blue;">Emm, can you provide me with an example respectively makes it easy to understand?</span></p>
+<p>Sure. Active sensors- your iPhone camera with the flash turned on. Passive sensor- your iPhone camera without the flash turned on OR- your eyes.</p>
+<p><span style="color:blue;">Gotcha! Next, we move to ‘Electromagnetic waves’. This reminds me of the old days when I was studying A-level physics. Time flies by, it makes me cry :( .</span></p>
+<p>As we know most remote sensing relies on detecting and analyzing electromagnetic radiation(EMR) to gather information about objects or areas from afar without direct contact. (We are not focused on some types of remote sensing that use mechanical waves instead of electromagnetic waves like seismographs). Electromagnetic Radiation 1) consists of waves with both electric and magnetic fields that propagate through space, and 2) the electric and magnetic fields are perpendicular to each other.</p>
+<p>The fundamental Formula related to EMR is: <img src="image/image3.png" class="img-fluid" alt="Frequency, Speed and the Wave-length"> Electromagnetic radiation (EMR) undergoes several variations before reaching a sensor, rather than being directly reflected. For example: Surface- Energy is absorbed by the surface, and Atmospheric- Energy is scattered by particles in the atmosphere, influencing the clarity and quality of the sensed data.</p>
+<p>There are Three types of scattering - Rayleigh scattering occurs with particles much smaller than the wavelength of the radiation (like oxygen molecules). This phenomenon explains why the sky appears “blue” during the day and why the sea normally appears “blue”. - Mie scattering happens with particles about the same size as the wavelength (like smoke and dust). - Non-selective scattering involves particles much larger than the wavelength(like water vapour).</p>
+<p>BTW, 1) the moon has a black sky because there is no atmosphere- no scattering can happen. 2) The ocean usually appears blue because it absorbs blue wavelengths the least, scattering and reflecting them to the observer’s eye. 3) Active sensors like Synthetic Aperture Radar (SAR) can pass through clouds.</p>
+<p><span style="color:blue;">Can you explain about Remotely sensed data and the four resolutions?</span></p>
+<p>Of course, I will explain to you in detail:</p>
+<p>Raster data is typically obtained through remote sensing; however, this varies depending on the sensor.</p>
+<p>4 types of resolution</p>
+<p>1)Spatial resolution: defines the ability to resolve spatially close objects and to identify small objects, which is expressed by Ground Sampling Distance (pixel size on the ground). The GSD is influenced by factors such as the altitude of the sensor, the sensor’s optical characteristics, and the pixel size of the sensor array. More detailed images are possible with higher spatial resolution (smaller pixel sizes), which highlights smaller features in the observed region.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="image/image4.png" class="img-fluid figure-img"></p>
-<figcaption>progress details</figcaption>
+<figcaption>Frequency, Speed and the Wave-length</figcaption>
 </figure>
 </div>
+<p>Spatial resolution (geometric) o Low resolution &gt;= 30m &lt; 300m o Medium resolution &gt;= 5 &lt; 30m o High resolution &gt;= 2m &lt; 5m o Very high resolution &lt; 2m</p>
+<ol start="2" type="1">
+<li>Spectral: Describes the number and width of spectral bands that a sensor records. (more or narrower bands = better spectral resolution)</li>
+</ol>
+<p>For example:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="image/image5.png" class="img-fluid figure-img"></p>
+<figcaption>Improved Spectral Resolution of Landsat 8 Instrument (OLI)</figcaption>
+</figure>
+</div>
+<p>The Landsat 8 OLI sensor shows improved spectral resolution, indicated by the increased number of bands and narrower bandwidths (compared to Landsat 4-5 (MSS)). This improvement allows for more precise detection of different features on the Earth’s surface due to the ability to capture more specific ranges of the spectrum and differentiate between more subtle differences in reflectance.</p>
+<p>o Panchromatic (wide bandwidth, visible range of spectrum) o Multispectral &gt;= 3 spectral bands (RGB, RGB NIR + MIR) o Hyperspectral &gt;= 30 spectral bands (lower geometric and resolution) o These images have high spectral resolution but low spatial resolution</p>
+<ol start="3" type="1">
+<li>Radiometric: defines the ability to resolve objects with similar reflectance (within the same wavelength)</li>
+</ol>
+<p>(Higher number of bits = higher the radiometric resolution = higher the quality of the image = higher possibility to differentiate features)</p>
+<p>For example:</p>
+<p>8 bit = 256 possible values; 1 bit = 2 possible values <img src="image/image6.png" class="img-fluid" alt="Mosque of Hassan II, Casablanca, Morocco"></p>
+<p>Images above clearly illustrute that the 8-bit image has better quality than the 1-bit one.</p>
+<p>4)Temporal: Involves how frequently a sensor collects data of the same area. (Short revisit/reacquisition cycle = better temporal resolution)</p>
+<p>For example: The satellite orbit above the UK and it won’t come back until the day after 15 days. So if the cycle is shorten to 3 days it’s better temporal resolution.</p>
+<p><span style="color:blue;">So much knowledge! Thank you for your summary and explanation, but I need some time to understand.</span></p>
+<p>take your time! Next, I will review the application of remote sensing according to some literature, which will help you understand.</p>
+</section>
+<section id="applications" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">1.2</span> Applications</h2>
+<blockquote style="background-color: #e9f5ec; padding: 10px;" class="blockquote">
+<p style="margin: 0; font-style: italic; font-weight: bold;">
+</p><p>“In science there is only physics; all the rest is stamp collecting.”</p>
+<p></p>
+<footer style="margin-top: 10px;">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;—————William Thomson(Lord Kelvin)</p>
+</footer>
+</blockquote>
+<p>The fundamental core of remote sensing technology is electromagnetism, the interactions of electromagnetic energy with the atmosphere and the Earth’s surface are critical in determining the quality and type of data collected. The electromagnetic spectrum highlights the diverse range of electromagnetic waves, from long radio waves to short gamma rays, and the human eye’s ability to detect only a small portion of this spectrum, known as visible light. <img src="image/image7.png" class="img-fluid" alt="The electromagnetic spectrum"></p>
+<p>Presented below are several prevalent electromagnetic waves utilized in the field of remote sensing, along with their respective applications and examples of corresponding remote sensing satellites.</p>
+<ol type="1">
+<li><p>Visible Light and Near-Infrared: These bands are commonly used for monitoring land cover, vegetation health, urban planning, and environmental changes. Vegetation is strongly reflected in these bands, making it possible to assess the health and density of vegetation. Satellite Examples: Landsat Series: For global environmental monitoring, including agriculture, and forest coverage. Sentinel-2: Providing high-resolution images of land cover and vegetation health.</p></li>
+<li><p>Thermal Infrared: Used for measuring surface temperature, fire detection, evapotranspiration, and sea surface temperature monitoring. Thermal infrared data can help analyze drought conditions and the urban heat island effect. Satellite Examples: MODIS: Onboard the Terra and Aqua satellites, providing global climate system observations, including surface temperature.</p></li>
+<li><p>Microwave: As microwaves can penetrate clouds, dust, smoke, snow, and rain, they are ideal for satellite communication in extreme weather conditions. Microwave remote sensing is crucial for understanding global water cycles and climate change. Satellite Examples: SMAP (Soil Moisture Active Passive): A NASA satellite focused on global soil moisture measurement to help forecast floods and droughts. GRACE (Gravity Recovery and Climate Experiment) Series: To measure variations in Earth’s gravitational field and deduce changes in ice mass and groundwater storage.</p></li>
+<li><p>Ultraviolet: Mainly used for atmospheric and solar studies, including ozone layer monitoring, solar activity observation, and air quality assessment. Satellite Examples: Aura Satellite: Carrying the OMI (Ozone Monitoring Instrument) focused on atmospheric composition and atmospheric chemistry studies.</p></li>
+<li><p>X-Rays and Gamma Rays: Mainly employed in the field of astronomy to investigate high-energy events in the universe, such as black holes, neutron stars, and remnants of supernovas. Satellite Examples: Chandra X-ray Observatory: For studying high-temperature objects and X-ray sources in the universe.</p></li>
+</ol>
+<p>As we can see above, with the cornerstone of electromagnetic technology, remote sensing can be utilized across interdisciplinary fields, especially contributing significant power to urban-related studies. For urban environments, the differentiation between wavelengths allows for the identification of specific gases in the atmosphere, which can be used to monitor air quality or track the movement of atmospheric pollutants. In terms of Urban Agriculture, it enables the identification of healthy versus stressed vegetation, allowing for precise monitoring of crop health and the optimization of agricultural practices. Within the field of Urban Planning, it provides critical data for urban planning, such as land use classification and urban expansion. As for Urban Climate Studies, remote sensing data contribute to understanding and modelling climate systems and tracking changes in ice cover, sea levels, and global temperatures.</p>
+</section>
+<section id="reflection" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">1.3</span> Reflection</h2>
+<p>Based on my interest in the Internet of Things (IoT), I have developed some ideas about the relationship between remote sensing and IoT. In my view, the development of the two disciplines, remote sensing and IoT, is blurring the distance between them. Both technologies are driven by similar needs- to efficiently collect data on a large scale without requiring a lot of manpower. They have both evolved to be able to analyse data and simplify large amounts of data to make it easy to understand.</p>
+<p>Based on what I’ve learnt about remote sensing this week, I believe that remote sensing and the Internet of Things are essentially complementary and that they have different strengths for solving problems. Remote sensing can essentially be thought of as “external IoT”, whereas traditional IoT uses embedded or internal sensors. Combining the two offers even greater potential. For example, sensors inside an underground pipe may detect a drop in pressure at a certain cross-section, but external hyperspectral sensors can link this pressure to changes present in the ground and synthesise the root cause of the problem. The data generated by these technologies has the potential to provide a wide range of new insights, reduce costs and improve system performance.</p>
+<p>With their combination, plus the utilisation of new technologies such as artificial intelligence and cloud computing. There is an opportunity for a whole host of new ways to protect critical infrastructure, preserve the environment and improve human life.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
