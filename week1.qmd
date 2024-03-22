@@ -8,7 +8,9 @@ NASA defined Remote sensing as an acquisition of information from a distance. In
 
 Its implementation is through sensors mounted on various platforms: like Satellites, Airplanes (for aerial imagery), Drones and Smartphones. There are over 150 satellites in orbit equipped with sensors for remote sensing.
 
-![Remote sensing](image/image1.png) [Oh,I see,easy one. What types of sensors are there?]{style="color:blue;"}
+![Remote sensing](image/image1.png) 
+
+[Oh,I see,easy one. What types of sensors are there?]{style="color:blue;"}
 
 There are mainly two types of sensors:
 

@@ -1,1 +1,43 @@
 # week 8 - classification 2
+
+## Overview
+
+![Week8 Mind map](image/week8Image.png)
+
+[This week, I found accuracy assessment is really important in remote sensing, isn’t it?]{style="color:blue;"} 
+
+Indeed, determining the accuracy of information from remotely sensed data is essential for ensuring its trustworthiness. This can be done through either qualitative or quantitative approaches. Qualitative assessments quickly eye-check the data or maps to see if they make sense with what's actually on the ground. Meanwhile, quantitative assessments dive deeper, pinpointing and measuring mistakes by comparing the data on the maps to actual, on-the-ground reference data. The value of ensuring accuracy in remote sensing cannot be overstated; such data plays a pivotal role in mapping and crafting environmental models that guide management decisions and policy-making.
+
+A quiz for you- In the lecture we also talked about sub-pixel analysis, can you summarize something?
+
+[In general, Sub-pixel analysis overcomes the limitations of conventional pixel-based classification by providing increased detail in land cover mapping and monitoring. This is crucial for ensuring precise environmental evaluations and enabling well-informed choices regarding land management and conservation.]{style="color:blue;"} 
+
+Fair enough, Let’s explore some relative literature and applications.
+
+## Application
+
+This week I read a wide range of literature and tried to analyze the development, current challenges and future development directions of remote sensing data classification. (Due to the large number of terminologies, I translated some documents into my mother tongue for reading. There may be errors in professional terms during the expression process, but I will try to improve.)
+
+In the early stages, classification methods based on manually designed features provided solutions for the classification of remote sensing images. Subsequently, machine learning, built on the foundation of probability, statistics, and other theories, further improved classification accuracy. The advent of deep learning eliminated the reliance on human experts to design features entirely and led to a qualitative leap in classification accuracy. However, challenges in visualizing and interpreting deep network models and the lack of datasets have restrained further improvements in classification accuracy. In the future, the structures and parameters of deep learning networks will be determined more rapidly and accurately. In practical applications, the depth and width of deep learning systems significantly impact classification performance. Deeper and wider networks can uncover more abstract feature representations in the data, enhancing classification effectiveness. However, excessively large network models increase training consumption, reduce training efficiency, and may decrease the network's generalizability, leading to overfitting. Balancing classification performance with the effective reduction of network complexity is one of the current research hotspots. With technological advancement, data from various types are growing massively. It is worth considering the integration of multisource heterogeneous data, such as from multiple types of sensors, smart devices, and social networking sites, for remote sensing image classification. Multisource heterogeneous data can provide target image features and information from different aspects. The fusion of different features and information not only retains the effective discriminatory information of the features involved but also reduces the uncertainty of single-source data to some extent, making the classification results more reliable and the outcomes of remote sensing image target classification more comprehensive and accurate.
+
+## Reflection
+
+Through the previous weeks of study, I felt the close connection between this course and CASA0006: Data Science for Spatial Systems and last semester's CASA0005: Geographic Information Systems and Science. Words like machine learning and deep learning were repeatedly mentioned and applied in this course, which made me think about the combination of remote sensing technology/space science and artificial intelligence, such as GeoAI, which is changing the way we observe the earth. This combination allows us to analyze changes on Earth and in space more quickly and accurately.
+
+## References
+
+Barsi, Á., Kugler, Zs., László, I., Szabó, Gy. and Abdulmutalib, H.M., 2018. Accuracy Dimensions in Remote Sensing. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-3, pp. [page range if available]. ISPRS TC III Mid-term Symposium “Developments, Technologies and Applications in Remote Sensing”, 7–10 May, Beijing, China.[Accessed 13 March 2024]
+
+Bruzzone, L. and Demir, B., 2014. A Review of Modern Approaches to Classification of Remote Sensing Data. In: I. Manakos and M. Braun, eds. Land Use and Land Cover Mapping in Europe. Remote Sensing and Digital Image Processing, vol 18. Springer, Dordrecht. https://doi.org/10.1007/978-94-007-7969-3_9.[Accessed 13 March 2024]
+
+Cherrill, A., 1994. A comparison of three landscape classifications and investigation of the potential for using remotely sensed land cover data for landscape classification. Journal of Rural Studies, 10(3), pp.275-289. https://doi.org/10.1016/0743-0167(94)90054-X.[Accessed 12 March 2024]
+
+Foody, G.M., 2004. Sub-Pixel Methods in Remote Sensing. In: Jong, S.M.D. and Meer, F.D.V. eds. Remote Sensing Image Analysis: Including The Spatial Domain. Remote Sensing and Digital Image Processing, vol 5. Springer, Dordrecht. https://doi.org/10.1007/978-1-4020-2560-0_3.[Accessed 12 March 2024]
+
+Gómez-Chova, L., Tuia, D., Moser, G. and Camps-Valls, G., 2015. Multimodal Classification of Remote Sensing Images: A Review and Future Directions. Proceedings of the IEEE, 103(9), https://doi.org/10.1109/JPROC.2015.2464219.[Accessed 12 March 2024]
+
+Matarira, D., Mutanga, O., Naidu, M. and Vizzari, M., 2023. Object-Based Informal Settlement Mapping in Google Earth Engine Using the Integration of Sentinel-1, Sentinel-2, and PlanetScope Satellite Data. Land, 12(1), 99. https://doi.org/10.3390/land12010099.[Accessed 15 March 2024]
+
+Pal, M. & Mather, P.M., 2005. Support vector machines for classification in remote sensing. International Journal of Remote Sensing, 26(5), pp.1007-1011. https://doi.org/10.1080/01431160512331314083.[Accessed 15 March 2024]
+
+
