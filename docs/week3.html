@@ -189,6 +189,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">3.1</span> Overview</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">3.2</span> Applications</a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><span class="header-section-number">3.3</span> Reflection</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">3.4</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -216,23 +219,44 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">3.1</span> Overview</h2>
-<p>1.1.1 Overview This week’s journey into remote sensing unveils the potential for image correction and enhancement. While corrections aim to rectify sensor, atmospheric, or terrain-induced distortions, our focus will shift towards enhancement techniques, specifically Ratio, Texture, and Principal Component Analysis (PCA), to enrich remote sensing imagery interpretation.</p>
-<p>1.1.2 Ratio Enhancement: The NDVI Technique Ratio enhancements exploit varying spectral signatures across materials to accentuate particular elements. The Normalised Difference Vegetation Index (NDVI) leverages red and near-infrared bands, highlighting healthy vegetation’s unique reflective properties. Below is a formula representation and its application on Cape Town’s Landsat imagery from 2022, revealing vegetation health:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="image/image5.png" class="img-fluid figure-img"></p>
-<figcaption>NDVI</figcaption>
+<p><img src="image/week3Image.png" class="img-fluid figure-img"></p>
+<figcaption>Week3 Mind Map</figcaption>
 </figure>
 </div>
-<p>By setting a threshold NDVI value above 0.15, the visualization emphasizes vibrant farmland north of Cape Town, with urban and aquatic regions depicted in white. Interestingly, indigenous vegetation areas like Cape Point peninsula don’t prominently feature in NDVI outputs, possibly due to seasonal variations affecting the indigenous versus agricultural vegetation contrast:</p>
-<p>1.1.3 Texture Analysis Texture analysis measures pixel similarity within a spatial context, offering insights into landscape homogeneity. Utilizing a grey-level co-occurrence matrix (GLCM), this technique assesses homogeneity across pixels, distinguishing highly uniform areas from those with significant variance. The resultant texture map for Cape Town illustrates the differentiation between homogenous regions (such as oceans and agricultural lands) and areas of stark contrast (e.g., the coastal interface):</p>
+<p>Starting from this week, I will use the form of mind map to summarize this week’s knowledge, an intuitive and focused way.</p>
+<p><span style="color:blue;">OK! Now Let’s explore some applications!</span></p>
+</section>
+<section id="applications" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> Applications</h2>
+<p>Vegetation Indices (VIs) have evolved over the past four decades in the field of remote sensing, becoming essential tools for assessing vegetation. Since the launch of the first Earth Resource Satellite in 1972, scientists have been attempting to establish approximate relationships between spectral responses and vegetation cover(Eastman et al., 2013).</p>
+<p>Over the past two decades, more than forty vegetation indices have been researched and developed, such as the Normalized Difference Vegetation Index (NDVI), Enhanced Vegetation Index (EVI), and Soil-Adjusted Vegetation Index (SAVI).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="image/image6.png" class="img-fluid figure-img"></p>
-<figcaption>comparison</figcaption>
+<p><img src="image/week301.png" class="img-fluid figure-img"></p>
+<figcaption>Enhanced Vegetation Index World-wide 2011</figcaption>
 </figure>
 </div>
-<p>1.1.4 Principal Component Analysis PCA serves as a dimensionality reduction tool, simplifying complex, multi-band spectral data into principal components that capture the majority of data variance.</p>
+<p>While VIs provide a convenient and quick tool for vegetation monitoring, their application is influenced and constrained by factors such as weather conditions, observational conditions of remote sensors, soil moisture, etc. Moreover, in different environmental conditions, the analysis of vegetation indices becomes more complex(Xue &amp; Su, 2017). This also implies that future research should target the vegetation-soil-atmosphere system as a whole, taking into consideration the characteristics of remote sensors and electromagnetic radiation.</p>
+<p>Additionally, the effectiveness of using VIs for vegetation monitoring greatly depends on the spatial, spectral, and temporal resolution of remote sensing data. Lower resolutions may not accurately capture small-scale vegetation changes, while acquiring high-resolution data can be costly.</p>
+<p>Looking forward to future developments, with the rapid advancement of artificial intelligence and the repeated mention of smart cities, smart agriculture becomes a crucial part of smart cities, where Vegetation Indices can be fully utilized. Integrating multi-temporal satellite and unmanned aerial vehicle (UAV) observational data with field soil, vegetation, and yield observations, soil type maps, elevation maps, historical parcel and crop information, and meteorological data could provide data support for agricultural management, enabling more precise crop management. Furthermore, the introduction of concepts like “Task Map 2.0” and “AgroGIS,” which automatically generate precise crop management instructions, further promotes the practice of ‘Smart Agriculture’(Nicholas et al., 2022).</p>
+<p>Here is an example- Applications of Remote Sensing in Precision Farming:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Tl1YkbdcEgU?si=FQtJhr5RJIDyc7W6" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="reflection" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="reflection"><span class="header-section-number">3.3</span> Reflection</h2>
+<p>Due to my interest in the Internet of Things (IoT), in my past explorations I have seen the great potential of IoT and its application to smart agriculture. Through this week’s study, I have realised that remote sensing can also contribute immensely to smart agriculture, and that this interdisciplinary development is an inevitable trend in the development of our present society, and an important way in which we can contribute to the achievement of the goals of the United Nations.</p>
+<p>There is a remarkable example in practical applications: In Wageningen, Nederland, The National Smart Farming Pilot Project (NPPL) has been established by the Ministry of Agriculture, Nature and Food Quality and Wageningen Plant Research ProAgrica, it aims to combine remote sensing technology and Internet of Things technology to create more productive and intelligent agricultural systems(Wageningen University &amp; Research, 2017).</p>
+</section>
+<section id="references" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="references"><span class="header-section-number">3.4</span> References</h2>
+<p>Eastman, J.R., Sangermano, F., Machado, E.A., Rogan, J. and Anyamba, A., 2013. Global trends in seasonality of normalized difference vegetation index (NDVI), 1982–2011. Remote Sens., 5(10), pp.4799-4818. Available at: https://doi.org/10.3390/rs5104799 [Accessed 28 January 2024].</p>
+<p>Jensen, J.R., 2015. Introductory Digital Image Processing: A Remote Sensing Perspective. Prentice-Hall Inc., pp.208-273.</p>
+<p>Xue, J. and Su, B., 2017. Significant remote sensing vegetation indices: A review of developments and applications. Volume 2017, Article ID 1353691. Available at: https://doi.org/10.1155/2017/1353691 [Accessed 28 January 2024].</p>
+<p>Nicholas, N.J.H., Ng, Y.P. and Tew, Y., 2022. Intelligent farming with NDVI integrated agriculture solution. In: 2022 International Conference on Green Energy, Computing and Sustainable Technology (GECOST), Miri Sarawak, Malaysia. IEEE, pp.&nbsp;342-345. Available at: doi:10.1109/GECOST55694.2022.10010427 [Accessed 28 January 2024].</p>
+<p>Schulte to Bühne, H. and Pettorelli, N., 2018. Better together: Integrating and fusing multispectral and radar satellite imagery to inform biodiversity monitoring, ecological research and conservation science. Methods in Ecology and Evolution, 9, pp.849-865.</p>
+<p>Wageningen University &amp; Research, 2017. National Smart Farming pilot project. Available at: https://www.wur.nl/en/project/national-smart-farming-pilot-project.htm [Accessed 28 January 2024].</p>
 
 
 </section>
