@@ -117,3 +117,11 @@ Based on what I've learnt about remote sensing this week, I believe that remote 
 With their combination, plus the utilisation of new technologies such as artificial intelligence and cloud computing. There is an opportunity for a whole host of new ways to protect critical infrastructure, preserve the environment and improve human life.
 
 ## References
+
+Milne, Anthony Kinnaird. 1986. “The Use of Remote Sensing in Mapping and Monitoring Vegetational Change Associated with Bushfire Events in Eastern Australia.” Geocarto International 1 (1): 25–32.
+
+Navalgund, R.R., Jayaraman, V. and Roy, P.S., 2007. Remote sensing applications: An overview. Current Science, 93(12), pp.1747-1766. Available at: http://www.jstor.org/stable/24102069.
+
+Van Westen, CJ. 2000. “Remote Sensing for Natural Disaster Management.” International Archives of Photogrammetry and Remote Sensing 33 (B7/4; PART 7): 1609–17.
+
+
