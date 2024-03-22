@@ -54,7 +54,7 @@
     "href": "week2.html",
     "title": "2  Week 2 - Short Presentation",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "text": "xaringanExtra::embed_xaringan( url = “https://zhaowei777.github.io/PPT/”, ratio = “16:9”)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Week 2 - Short Presentation</span>"
     ]
@@ -112,11 +112,11 @@
   {
     "objectID": "week6.html",
     "href": "week6.html",
-    "title": "6  week 6 - intro to GEE",
+    "title": "5  week 6 - intro to GEE",
     "section": "",
-    "text": "6.1 Overview\nI’m currently learning how to use GEE and I found a video to start it as a beginner!\nIn this week’s lecture, we talked about “Loops and Mapping”, can you explain a little bit more?\n“Loops and Mapping” in GEE emphasizes a key distinction in managing repetitive tasks. Loops are frequently used in traditional programming to repeat tasks, however, because GEE uses a server-based data architecture, they are inefficient. Rather, GEE prefers “Mapping,” an approach that effectively applies a function to every element (such as features or images) in a collection. Mapping aligns with GEE’s cloud processing, allowing for parallel, distributed computations over large datasets, making it a preferred method for scalability and performance.\nI see! Then let’s talk about “reducing images”.\nThe action of “reducing images” in GEE entails condensing large image databases into simpler forms. It is possible to employ many techniques in image analysis, such as calculating median values to reduce noise, conducting zonal statistics within certain regions to comprehend changes, or utilizing the reduceRegion function to obtain average values inside a geographical border. It’s essential for extracting meaningful information from complex spatial data efficiently.\nLast question- Linear regression in GEE?\nGEE uses linear regression to examine the changes in pixel values over time across satellite images. By integrating a temporal variable into images and using the ee.Reducer function, calculating the slopes and intercepts for each pixel, allows for the identification of trends such as vegetation growth or urban development. This approach offers an in-depth comprehension of environmental changes with accuracy in both time and space(Google Earth Engine, 2023).",
+    "text": "5.1 Overview\nI’m currently learning how to use GEE and I found a video to start it as a beginner!\nIn this week’s lecture, we talked about “Loops and Mapping”, can you explain a little bit more?\n“Loops and Mapping” in GEE emphasizes a key distinction in managing repetitive tasks. Loops are frequently used in traditional programming to repeat tasks, however, because GEE uses a server-based data architecture, they are inefficient. Rather, GEE prefers “Mapping,” an approach that effectively applies a function to every element (such as features or images) in a collection. Mapping aligns with GEE’s cloud processing, allowing for parallel, distributed computations over large datasets, making it a preferred method for scalability and performance.\nI see! Then let’s talk about “reducing images”.\nThe action of “reducing images” in GEE entails condensing large image databases into simpler forms. It is possible to employ many techniques in image analysis, such as calculating median values to reduce noise, conducting zonal statistics within certain regions to comprehend changes, or utilizing the reduceRegion function to obtain average values inside a geographical border. It’s essential for extracting meaningful information from complex spatial data efficiently.\nLast question- Linear regression in GEE?\nGEE uses linear regression to examine the changes in pixel values over time across satellite images. By integrating a temporal variable into images and using the ee.Reducer function, calculating the slopes and intercepts for each pixel, allows for the identification of trends such as vegetation growth or urban development. This approach offers an in-depth comprehension of environmental changes with accuracy in both time and space(Google Earth Engine, 2023).",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
     ]
   },
   {
@@ -154,7 +154,7 @@
     "href": "week4.html",
     "title": "4  week 4 - policy",
     "section": "",
-    "text": "4.1 Overview - Assessing Burn Scars After Bushfire in Sydney\nDo you remember the 2019–20 bushfires in Sydney? You and I were both in Melbourne at the time, and we were also affected\nI do.It was a tragedy. Those people, animals, and plants that lost their lives in that fire- R.I.P.. Today, let’s explore the application of remote sensing technology in assessing burn scars after bushfire, in conjunction with relevant policies.\nIn today’s world, remote sensing technology has become an important tool for detecting and managing urban challenges, building a bridge between scientific research and policy development.\nBush Fire is one of the most commonly occurring natural disasters in Australia which brings huge damage to the land and requires a relatively long recovery period. Sydney, surrounded by vast tracts of bushland, is inherently vulnerable to the threat of bushfires, which have become more frequent and intense due to climate change and urban encroachment into forested areas. However, considering the scale of the bushfire and human ability, it is hard to examine the post-fire condition manually. Hence Landsat satellites are constantly being used to capture and analyze spatial information on large scales, such as detecting physically affected regions after fire, predicting the potential hazards, generate vegetation regrowth.\nThe significance of post-wildfire assessments in Australia, particularly regarding the evaluation of burn scars, is underscored by the “National Bushfire Management Policy Statement for Forests and Rangelands” (2014). “Planning for Bush Fire Protection 2019” further complements this approach by providing detailed guidelines for post-bushfire planning.\nBy assessing the burn scars left by bushfires, we can gain a better understanding of the environmental impact of fires and provide critical information for rebuilding and restoration efforts, which is significant for achieving the United Nations Sustainable Development Goals.",
+    "text": "4.1 Overview - Assessing Burn Scars After Bushfire in Sydney\nDo you remember the 2019–20 bushfires in Sydney? You and I were both in Melbourne at the time, and we were also affected\nI do. It was a tragedy. Those people, animals, and plants that lost their lives in that fire- R.I.P.. Today, let’s explore the application of remote sensing technology in assessing burn scars after bushfire, in conjunction with relevant policies.\nIn today’s world, remote sensing technology has become an important tool for detecting and managing urban challenges, building a bridge between scientific research and policy development.\nBush Fire is one of the most commonly occurring natural disasters in Australia which brings huge damage to the land and requires a relatively long recovery period. Sydney, surrounded by vast tracts of bushland, is inherently vulnerable to the threat of bushfires, which have become more frequent and intense due to climate change and urban encroachment into forested areas. However, considering the scale of the bushfire and human ability, it is hard to examine the post-fire condition manually. Hence Landsat satellites are constantly being used to capture and analyze spatial information on large scales, such as detecting physically affected regions after fire, predicting the potential hazards, generate vegetation regrowth.\nThe significance of post-wildfire assessments in Australia, particularly regarding the evaluation of burn scars, is underscored by the “National Bushfire Management Policy Statement for Forests and Rangelands” (2014). “Planning for Bush Fire Protection 2019” further complements this approach by providing detailed guidelines for post-bushfire planning.\nBy assessing the burn scars left by bushfires, we can gain a better understanding of the environmental impact of fires and provide critical information for rebuilding and restoration efforts, which is significant for achieving the United Nations Sustainable Development Goals.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>week 4 - policy</span>"
     ]
@@ -202,141 +202,141 @@
   {
     "objectID": "week6.html#overview",
     "href": "week6.html#overview",
-    "title": "6  week 6 - intro to GEE",
+    "title": "5  week 6 - intro to GEE",
     "section": "",
     "text": "Week6 Mind map",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
     ]
   },
   {
     "objectID": "week6.html#applications",
     "href": "week6.html#applications",
-    "title": "6  week 6 - intro to GEE",
-    "section": "6.2 Applications",
-    "text": "6.2 Applications\nGoogle Earth Engine makes remote sensing analysis more efficient. Its advantage is that it is a geospatial processing platform based on cloud computing and provides free access to a large amount of satellite data, so it is widely used in various fields. A total of 90 journals published articles on GEE between 2020 and 2022, demonstrating the multidisciplinary applications of the GEE platform - including deforestation, natural disasters, infectious diseases, agriculture, water management, climate monitoring and geological resources(Amani et al., 2020)\n\n\n\nCategorization of GEE applications by discipline.(Tamiminia et al., 2020)\n\n\nEarth Engine is also unique in that it not only serves traditional remote sensing scientists but also targets a broad range of non-technical users. However, even if many users can use the R language, they still need to spend time studying the GEE language, because Google Earth Engine requires JavaScript or Python programming language to write code. Meanwhile, GEE also has some issues related to data privacy(Zhao et al., 2021). The advantages and limitations of GEE are presented in the following table:\n\n\n\nMerits and limitations of GEE and GE.(Zhao et al., 2021)\n\n\nI found a case demonstrates the great potential of GEE technology in the agricultural field. Sydney startup Regrow Ag uses Google Earth Engine (GEE) technology to achieve innovative applications in the agricultural field. By analyzing satellite images to measure agricultural carbon sequestration and improve crop yields, Regrow Ag has attracted big customers like Kellogg’s and successfully raised $50 million in Series B funding(Dalton, 2022).\n\n\n\nAn example of a grower’s dashboard of fields analysed by Regrow Ag.",
+    "title": "5  week 6 - intro to GEE",
+    "section": "5.2 Applications",
+    "text": "5.2 Applications\nGoogle Earth Engine makes remote sensing analysis more efficient. Its advantage is that it is a geospatial processing platform based on cloud computing and provides free access to a large amount of satellite data, so it is widely used in various fields. A total of 90 journals published articles on GEE between 2020 and 2022, demonstrating the multidisciplinary applications of the GEE platform - including deforestation, natural disasters, infectious diseases, agriculture, water management, climate monitoring and geological resources(Amani et al., 2020)\n\n\n\nCategorization of GEE applications by discipline.(Tamiminia et al., 2020)\n\n\nEarth Engine is also unique in that it not only serves traditional remote sensing scientists but also targets a broad range of non-technical users. However, even if many users can use the R language, they still need to spend time studying the GEE language, because Google Earth Engine requires JavaScript or Python programming language to write code. Meanwhile, GEE also has some issues related to data privacy(Zhao et al., 2021). The advantages and limitations of GEE are presented in the following table:\n\n\n\nMerits and limitations of GEE and GE.(Zhao et al., 2021)\n\n\nI found a case demonstrates the great potential of GEE technology in the agricultural field. Sydney startup Regrow Ag uses Google Earth Engine (GEE) technology to achieve innovative applications in the agricultural field. By analyzing satellite images to measure agricultural carbon sequestration and improve crop yields, Regrow Ag has attracted big customers like Kellogg’s and successfully raised $50 million in Series B funding(Dalton, 2022).\n\n\n\nAn example of a grower’s dashboard of fields analysed by Regrow Ag.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
     ]
   },
   {
     "objectID": "week6.html#reflection",
     "href": "week6.html#reflection",
-    "title": "6  week 6 - intro to GEE",
-    "section": "6.3 Reflection",
-    "text": "6.3 Reflection\nGEE has built a shared platform to promote interdisciplinary research. This reminds me that in the Internet of Things, interdisciplinary research is also the core. In today’s era of rapid technological development, independent disciplines should seek multi-faceted cooperation. At the same time, the openness and easy access of GEE have also greatly promoted the development of global education, especially in developing countries with limited resources. This will go a long way to narrowing the digital divide around the world and promoting educational equity.",
+    "title": "5  week 6 - intro to GEE",
+    "section": "5.3 Reflection",
+    "text": "5.3 Reflection\nGEE has built a shared platform to promote interdisciplinary research. This reminds me that in the Internet of Things, interdisciplinary research is also the core. In today’s era of rapid technological development, independent disciplines should seek multi-faceted cooperation. At the same time, the openness and easy access of GEE have also greatly promoted the development of global education, especially in developing countries with limited resources. This will go a long way to narrowing the digital divide around the world and promoting educational equity.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
     ]
   },
   {
     "objectID": "week6.html#references",
     "href": "week6.html#references",
-    "title": "6  week 6 - intro to GEE",
-    "section": "6.4 References",
-    "text": "6.4 References\nAmani, M., Ghorbanian, A., Ahmadi, S.A., Kakooei, M., Moghimi, A., Mirmazloumi, S.M., Alizadeh Moghaddam, S.H., Mahdavi, S., Ghahremanloo, M., Parsian, S., Wu, Q. and Brisco, B., 2020. Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 13, pp.5326-5350. https://doi.org/10.1109/JSTARS.2020.3021052.\nDalton, A., 2022. Sydney start-up Regrow Ag first to harness Google Earth Engine. The Sydney Morning Herald. [online] Available at: https://www.smh.com.au/business/entrepreneurship/sydney-start-up-regrow-ag-first-to-harness-google-earth-engine-20220801-p5b69d.html [Accessed 25 February 2024].\nTamiminia, H., Salehi, B., Mahdianpari, M., Quackenbush, L., Adeli, S. and Brisco, B., 2020. Google Earth Engine for geo-big data applications: A meta-analysis and systematic review. ISPRS Journal of Photogrammetry and Remote Sensing. https://doi.org/10.1016/j.isprsjprs.2020.04.001 [Accessed 25 February 2024].\nZhao, Q., Yu, L., Li, X., Peng, D., Zhang, Y. and Gong, P., 2021. Progress and trends in the application of Google Earth and Google Earth Engine. Remote Sensing, 13(18), 3778. Available at: https://doi.org/10.3390/rs13183778 [Accessed 25 February 2024].",
+    "title": "5  week 6 - intro to GEE",
+    "section": "5.4 References",
+    "text": "5.4 References\nAmani, M., Ghorbanian, A., Ahmadi, S.A., Kakooei, M., Moghimi, A., Mirmazloumi, S.M., Alizadeh Moghaddam, S.H., Mahdavi, S., Ghahremanloo, M., Parsian, S., Wu, Q. and Brisco, B., 2020. Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 13, pp.5326-5350. https://doi.org/10.1109/JSTARS.2020.3021052.\nDalton, A., 2022. Sydney start-up Regrow Ag first to harness Google Earth Engine. The Sydney Morning Herald. [online] Available at: https://www.smh.com.au/business/entrepreneurship/sydney-start-up-regrow-ag-first-to-harness-google-earth-engine-20220801-p5b69d.html [Accessed 25 February 2024].\nTamiminia, H., Salehi, B., Mahdianpari, M., Quackenbush, L., Adeli, S. and Brisco, B., 2020. Google Earth Engine for geo-big data applications: A meta-analysis and systematic review. ISPRS Journal of Photogrammetry and Remote Sensing. https://doi.org/10.1016/j.isprsjprs.2020.04.001 [Accessed 25 February 2024].\nZhao, Q., Yu, L., Li, X., Peng, D., Zhang, Y. and Gong, P., 2021. Progress and trends in the application of Google Earth and Google Earth Engine. Remote Sensing, 13(18), 3778. Available at: https://doi.org/10.3390/rs13183778 [Accessed 25 February 2024].",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
     ]
   },
   {
     "objectID": "week7.html",
     "href": "week7.html",
-    "title": "7  week 7 - classification",
+    "title": "6  week 7 - classification",
     "section": "",
-    "text": "7.1 Overview\nIt seems like we get into machine learning with Google Earth Engine this week.\nYes!Let’s explore more!\nCART is a type of predictive algorithm that can be used for both classification and regression, which uses Gini Index criterion to split a node to a sub-node(Breiman et al., 1984).In Google Earth engine, it is included in supervised classification algorithms.\nClassification trees are tree models designed for scenarios where the target variable encompasses a specific set of discrete outcomes, with the branches indicating feature combinations leading to distinct class labels represented by the leaves.\nConversely, regression trees deal with target variables that assume continuous values, usually within the real number range(Studer et al., 2011).\nI also get a summary of this week’s knowledge!\n- Classification serves critical roles in extracting meaningful information from Earth Observation (EO) data for various applications.\n- Both supervised and unsupervised methods have their merits, with the choice of method depending on the specific application and available data.\n- Advanced methods like Random Forests and SVM provide powerful tools for handling complex classification tasks, though they come with considerations regarding model complexity and overfitting.\nAwesome!",
+    "text": "6.1 Overview\nIt seems like we get into machine learning with Google Earth Engine this week.\nYes!Let’s explore more!\nCART is a type of predictive algorithm that can be used for both classification and regression, which uses Gini Index criterion to split a node to a sub-node(Breiman et al., 1984).In Google Earth engine, it is included in supervised classification algorithms.\nClassification trees are tree models designed for scenarios where the target variable encompasses a specific set of discrete outcomes, with the branches indicating feature combinations leading to distinct class labels represented by the leaves.\nConversely, regression trees deal with target variables that assume continuous values, usually within the real number range(Studer et al., 2011).\nI also get a summary of this week’s knowledge!\n- Classification serves critical roles in extracting meaningful information from Earth Observation (EO) data for various applications.\n- Both supervised and unsupervised methods have their merits, with the choice of method depending on the specific application and available data.\n- Advanced methods like Random Forests and SVM provide powerful tools for handling complex classification tasks, though they come with considerations regarding model complexity and overfitting.\nAwesome!",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 7 - classification</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 7 - classification</span>"
     ]
   },
   {
     "objectID": "week7.html#overview",
     "href": "week7.html#overview",
-    "title": "7  week 7 - classification",
+    "title": "6  week 7 - classification",
     "section": "",
     "text": "Week7 Mind map\n\n\n\n\n\n\n\n\nFormula of Gini Index",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 7 - classification</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 7 - classification</span>"
     ]
   },
   {
     "objectID": "week7.html#applications",
     "href": "week7.html#applications",
-    "title": "7  week 7 - classification",
-    "section": "7.2 Applications",
-    "text": "7.2 Applications\nFor high-resolution remote sensing images, the spectral features of ground objects become increasingly complex, making phenomena like “same object, different spectra” and “different objects, same spectrum” more pronounced. This complexity leads to a decrease in the accuracy of traditional parametric methods such as Minimum Distance Classification (MDC) and Maximum Likelihood Classification (MLC). Consequently, non-parametric methods like Support Vector Machines (SVM), Artificial Neural Networks (ANN), and Decision Trees (DT) have found widespread application in classifying high-resolution remote sensing images. However, these methods are considered shallow learning algorithms and often struggle to effectively model complex functions or adapt to complex samples. They also face challenges in accurately estimating the parameters of classifier models, leading to unsatisfactory classification results.\nA scientific team conducted an experiment using remote sensing datasets from Helsinki, Finland, titled “CNN-Based Land Cover Classification Combining Stratified Segmentation and Fusion of Point Cloud and Very High-Spatial Resolution Remote Sensing Image Data.” This experiment demonstrates that CNN (Convolutional Neural Network) classification methods can effectively improve the accuracy of remote sensing image classification(Zhou et al., 2019). However, as a novel machine learning approach, CNNs still have many imperfections. These mainly include the complexity and large number of network model parameters, lengthy training times, and a lack of comprehensive theoretical support for network model structure design, necessitating extensive experimentation to identify optimal parameters. Moving forward, the focus of research will shift towards improving model training speed and identifying the best parameters.\n\n\n\nThe workflow for the convolutional neural network (CNN)-based land cover classification method combining stratified segmentation and point cloud data fusion.(Zhou et al., 2019)",
+    "title": "6  week 7 - classification",
+    "section": "6.2 Applications",
+    "text": "6.2 Applications\nFor high-resolution remote sensing images, the spectral features of ground objects become increasingly complex, making phenomena like “same object, different spectra” and “different objects, same spectrum” more pronounced. This complexity leads to a decrease in the accuracy of traditional parametric methods such as Minimum Distance Classification (MDC) and Maximum Likelihood Classification (MLC). Consequently, non-parametric methods like Support Vector Machines (SVM), Artificial Neural Networks (ANN), and Decision Trees (DT) have found widespread application in classifying high-resolution remote sensing images. However, these methods are considered shallow learning algorithms and often struggle to effectively model complex functions or adapt to complex samples. They also face challenges in accurately estimating the parameters of classifier models, leading to unsatisfactory classification results.\nA scientific team conducted an experiment using remote sensing datasets from Helsinki, Finland, titled “CNN-Based Land Cover Classification Combining Stratified Segmentation and Fusion of Point Cloud and Very High-Spatial Resolution Remote Sensing Image Data.” This experiment demonstrates that CNN (Convolutional Neural Network) classification methods can effectively improve the accuracy of remote sensing image classification(Zhou et al., 2019). However, as a novel machine learning approach, CNNs still have many imperfections. These mainly include the complexity and large number of network model parameters, lengthy training times, and a lack of comprehensive theoretical support for network model structure design, necessitating extensive experimentation to identify optimal parameters. Moving forward, the focus of research will shift towards improving model training speed and identifying the best parameters.\n\n\n\nThe workflow for the convolutional neural network (CNN)-based land cover classification method combining stratified segmentation and point cloud data fusion.(Zhou et al., 2019)",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 7 - classification</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 7 - classification</span>"
     ]
   },
   {
     "objectID": "week7.html#reflection",
     "href": "week7.html#reflection",
-    "title": "7  week 7 - classification",
-    "section": "7.3 Reflection",
-    "text": "7.3 Reflection\nWhen we explore the potential of convolutional neural networks (CNN), we should not be limited to the classification of remote sensing images. The application scope of CNN goes far beyond the boundaries of a single field, and the types of images it can process and analyze are also very wide. For example, in urban street monitoring, CNN can be used to monitor changes in urban layout, traffic flow, and even public safety events. This technology can not only improve the efficiency of urban management, but also respond to emergencies in real time and improve the quality of life of urban residents.\nBy combining CNN in street monitoring and remote sensing data, we can achieve more comprehensive and dynamic urban management. Remote sensing technology can monitor urban development, environmental changes and natural resource utilization from a macro perspective, while street-level monitoring provides a microscopic perspective, capturing the details of a city’s daily operations. The combination of the two allows urban planners and managers to more accurately understand the development dynamics of the city and make more reasonable decisions.",
+    "title": "6  week 7 - classification",
+    "section": "6.3 Reflection",
+    "text": "6.3 Reflection\nWhen we explore the potential of convolutional neural networks (CNN), we should not be limited to the classification of remote sensing images. The application scope of CNN goes far beyond the boundaries of a single field, and the types of images it can process and analyze are also very wide. For example, in urban street monitoring, CNN can be used to monitor changes in urban layout, traffic flow, and even public safety events. This technology can not only improve the efficiency of urban management, but also respond to emergencies in real time and improve the quality of life of urban residents.\nBy combining CNN in street monitoring and remote sensing data, we can achieve more comprehensive and dynamic urban management. Remote sensing technology can monitor urban development, environmental changes and natural resource utilization from a macro perspective, while street-level monitoring provides a microscopic perspective, capturing the details of a city’s daily operations. The combination of the two allows urban planners and managers to more accurately understand the development dynamics of the city and make more reasonable decisions.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 7 - classification</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 7 - classification</span>"
     ]
   },
   {
     "objectID": "week7.html#references",
     "href": "week7.html#references",
-    "title": "7  week 7 - classification",
-    "section": "7.4 References",
-    "text": "7.4 References\nBreiman, L., Friedman, J.H., Olshen, R.A. and Stone, C.J., 1984. Classification and Regression Trees. Monterey, CA: Wadsworth & Brooks/Cole Advanced Books & Software. ISBN 978-0-412-04841-8.[Accessed 5 March 2024]\nPal, M. & Mather, P.M., 2005. Support vector machines for classification in remote sensing. International Journal of Remote Sensing, 26(5), pp.1007-1011. https://doi.org/10.1080/01431160512331314083.[Accessed 5 March 2024]\nStuder, M., Ritschard, G., Gabadinho, A. and Müller, N.S., 2011. Discrepancy Analysis of State Sequences. Sociological Methods & Research, 40(3), pp.471-510. https://doi.org/10.1177/0049124111415372.[Accessed 7 March 2024]\nYang, C.-C., Prasher, S.O., Enright, P., Madramootoo, C., Burgess, M., Goel, P.K. and Callum, I., 2003. Application of decision tree technology for image classification using remote sensing data. Agricultural Systems, 76(3), pp.1101-1117. https://doi.org/10.1016/S0308-521X(02)00051-3.[Accessed 5 March 2024]\nZhou, K., Ming, D., Lv, X., Fang, J. and Wang, M., 2019. CNN-based land cover classification combining stratified segmentation and fusion of point cloud and very high-spatial resolution remote sensing image data. Remote Sensing, 11(17), 2065. https://doi.org/10.3390/rs11172065.[Accessed 5 March 2024]",
+    "title": "6  week 7 - classification",
+    "section": "6.4 References",
+    "text": "6.4 References\nBreiman, L., Friedman, J.H., Olshen, R.A. and Stone, C.J., 1984. Classification and Regression Trees. Monterey, CA: Wadsworth & Brooks/Cole Advanced Books & Software. ISBN 978-0-412-04841-8.[Accessed 5 March 2024]\nPal, M. & Mather, P.M., 2005. Support vector machines for classification in remote sensing. International Journal of Remote Sensing, 26(5), pp.1007-1011. https://doi.org/10.1080/01431160512331314083.[Accessed 5 March 2024]\nStuder, M., Ritschard, G., Gabadinho, A. and Müller, N.S., 2011. Discrepancy Analysis of State Sequences. Sociological Methods & Research, 40(3), pp.471-510. https://doi.org/10.1177/0049124111415372.[Accessed 7 March 2024]\nYang, C.-C., Prasher, S.O., Enright, P., Madramootoo, C., Burgess, M., Goel, P.K. and Callum, I., 2003. Application of decision tree technology for image classification using remote sensing data. Agricultural Systems, 76(3), pp.1101-1117. https://doi.org/10.1016/S0308-521X(02)00051-3.[Accessed 5 March 2024]\nZhou, K., Ming, D., Lv, X., Fang, J. and Wang, M., 2019. CNN-based land cover classification combining stratified segmentation and fusion of point cloud and very high-spatial resolution remote sensing image data. Remote Sensing, 11(17), 2065. https://doi.org/10.3390/rs11172065.[Accessed 5 March 2024]",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 7 - classification</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 7 - classification</span>"
     ]
   },
   {
     "objectID": "week9.html",
     "href": "week9.html",
-    "title": "9  week 9 - SAR",
+    "title": "8  week 9 - SAR",
     "section": "",
-    "text": "9.1 Overview\nIn this lecture we explore SAR in more detail than in all previous lectures. Let’s take a deeper look at its application in the following section!\nHere I found a very good video about SAR by Scott Manley:",
+    "text": "8.1 Overview\nIn this lecture we explore SAR in more detail than in all previous lectures. Let’s take a deeper look at its application in the following section!\nHere I found a very good video about SAR by Scott Manley:",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week 9 - SAR</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 9 - SAR</span>"
     ]
   },
   {
     "objectID": "week9.html#overview",
     "href": "week9.html#overview",
-    "title": "9  week 9 - SAR",
+    "title": "8  week 9 - SAR",
     "section": "",
     "text": "Week9 Mind map",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week 9 - SAR</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 9 - SAR</span>"
     ]
   },
   {
     "objectID": "week9.html#applications",
     "href": "week9.html#applications",
-    "title": "9  week 9 - SAR",
-    "section": "9.2 Applications",
-    "text": "9.2 Applications\nThis week I discussed the possible advantages and disadvantages of SAR imagery.\nSAR satellite imagery boasts several advantages, making it an invaluable tool for earth observation under various conditions. One of its most significant benefits is its capability to acquire data anytime, regardless of daylight, as it is not limited by light conditions and can operate both day and night without the need for sunlight. Furthermore, its all-weather capability is another substantial advantage; the radio frequency radiation it uses is not significantly affected by clouds, precipitation, or other atmospheric conditions, allowing it to work under any weather circumstances. SAR imagery’s resolution is independent of the flight altitude, offering more flexibility in satellite orbit selection. Unlike visible light and infrared imaging, SAR can penetrate deeper into vegetation and soil, depending on the microwave wavelength, offering possibilities for inverting surface vegetation and soil characteristics. It can also collect data in different wavelengths and polarizations to derive various types of information, such as surface structure and moisture content, across large areas at lower resolution or in detailed high resolution for smaller zones.\nHowever, SAR imagery also comes with its set of drawbacks. Certain nonlinear frequency-modulated continuous-wave (FMCW) signals in SAR images have a lower signal-to-noise ratio. The side-looking coherent imaging mode it utilizes can lead to severe image noise pollution. SAR systems are complex by design, handling large volumes of data, making it challenging to extract effective feature information. Compared to optical remote sensing images, SAR data typically have lower spatial resolution and less visually appealing results. The complexity of SAR imaging technology and data post-processing can pose significant difficulties, requiring technicians to undergo long training periods and possess a solid foundation in physics. Moreover, in the application field of interferometric deformation recognition, the effectiveness in mountainous areas is compromised due to significant deformation gradients.\nIn summary, while SAR satellite imagery offers unparalleled advantages in its all-time and all-weather capabilities, deep penetration, and flexibility in information gathering, its application is hindered by challenges related to image noise, system complexity, lower spatial resolution compared to optical imagery, and technical barriers in data processing and deformation recognition.",
+    "title": "8  week 9 - SAR",
+    "section": "8.2 Applications",
+    "text": "8.2 Applications\nThis week I discussed the possible advantages and disadvantages of SAR imagery.\nSAR satellite imagery boasts several advantages, making it an invaluable tool for earth observation under various conditions. One of its most significant benefits is its capability to acquire data anytime, regardless of daylight, as it is not limited by light conditions and can operate both day and night without the need for sunlight. Furthermore, its all-weather capability is another substantial advantage; the radio frequency radiation it uses is not significantly affected by clouds, precipitation, or other atmospheric conditions, allowing it to work under any weather circumstances. SAR imagery’s resolution is independent of the flight altitude, offering more flexibility in satellite orbit selection. Unlike visible light and infrared imaging, SAR can penetrate deeper into vegetation and soil, depending on the microwave wavelength, offering possibilities for inverting surface vegetation and soil characteristics. It can also collect data in different wavelengths and polarizations to derive various types of information, such as surface structure and moisture content, across large areas at lower resolution or in detailed high resolution for smaller zones.\nHowever, SAR imagery also comes with its set of drawbacks. Certain nonlinear frequency-modulated continuous-wave (FMCW) signals in SAR images have a lower signal-to-noise ratio. The side-looking coherent imaging mode it utilizes can lead to severe image noise pollution. SAR systems are complex by design, handling large volumes of data, making it challenging to extract effective feature information. Compared to optical remote sensing images, SAR data typically have lower spatial resolution and less visually appealing results. The complexity of SAR imaging technology and data post-processing can pose significant difficulties, requiring technicians to undergo long training periods and possess a solid foundation in physics. Moreover, in the application field of interferometric deformation recognition, the effectiveness in mountainous areas is compromised due to significant deformation gradients.\nIn summary, while SAR satellite imagery offers unparalleled advantages in its all-time and all-weather capabilities, deep penetration, and flexibility in information gathering, its application is hindered by challenges related to image noise, system complexity, lower spatial resolution compared to optical imagery, and technical barriers in data processing and deformation recognition.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week 9 - SAR</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 9 - SAR</span>"
     ]
   },
   {
     "objectID": "week9.html#reflection",
     "href": "week9.html#reflection",
-    "title": "9  week 9 - SAR",
-    "section": "9.3 Reflection",
-    "text": "9.3 Reflection",
+    "title": "8  week 9 - SAR",
+    "section": "8.3 Reflection",
+    "text": "8.3 Reflection\nCompleting this remote sensing course has profoundly expanded my understanding and skills in utilizing Earth observation data for environmental hazard mitigation, especially within urban sustainability contexts. Through hands-on practice in R and exploring advanced methodologies, I’ve learned to pre-process imagery, extract meaningful insights from spatial data, and apply these insights to optimize climate mitigation strategies. This experience has not only sharpened my technical abilities but also heightened my awareness of the critical importance of spatial data in shaping effective urban and environmental policies. Armed with this knowledge, I feel prepared to contribute to data-driven solutions for a sustainable future. I’m deeply grateful for this enriching learning journey and the invaluable insights it has provided.:)",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week 9 - SAR</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 9 - SAR</span>"
     ]
   },
   {
     "objectID": "week9.html#references",
     "href": "week9.html#references",
-    "title": "9  week 9 - SAR",
-    "section": "9.4 References",
-    "text": "9.4 References",
+    "title": "8  week 9 - SAR",
+    "section": "8.4 References",
+    "text": "8.4 References\nJao, J.K., 2001. Theory of synthetic aperture radar imaging of a moving target. IEEE Transactions on Geoscience and Remote Sensing, 39(9), pp.1984-1992. https://doi.org/10.1109/36.951089.\nOuchi, K., 2013. Recent Trend and Advance of Synthetic Aperture Radar with Selected Topics. Remote Sensing, 5(2), pp.716-807. https://doi.org/10.3390/rs5020716.\nSchulte to Bühne, H. and Pettorelli, N., 2018. Better together: Integrating and fusing multispectral and radar satellite imagery to inform biodiversity monitoring, ecological research and conservation science. Methods in Ecology and Evolution, 9, pp.849-865. Available at: https://doi.org/10.1111/2041-210X.1294.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>week 9 - SAR</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 9 - SAR</span>"
     ]
   },
   {
@@ -352,51 +352,51 @@
   {
     "objectID": "week8.html",
     "href": "week8.html",
-    "title": "8  week 8 - classification 2",
+    "title": "7  week 8 - classification 2",
     "section": "",
-    "text": "8.1 Overview\nThis week, I found accuracy assessment is really important in remote sensing, isn’t it?\nIndeed, determining the accuracy of information from remotely sensed data is essential for ensuring its trustworthiness. This can be done through either qualitative or quantitative approaches. Qualitative assessments quickly eye-check the data or maps to see if they make sense with what’s actually on the ground. Meanwhile, quantitative assessments dive deeper, pinpointing and measuring mistakes by comparing the data on the maps to actual, on-the-ground reference data. The value of ensuring accuracy in remote sensing cannot be overstated; such data plays a pivotal role in mapping and crafting environmental models that guide management decisions and policy-making.\nA quiz for you- In the lecture we also talked about sub-pixel analysis, can you summarize something?\nIn general, Sub-pixel analysis overcomes the limitations of conventional pixel-based classification by providing increased detail in land cover mapping and monitoring. This is crucial for ensuring precise environmental evaluations and enabling well-informed choices regarding land management and conservation.\nFair enough, Let’s explore some relative literature and applications.",
+    "text": "7.1 Overview\nThis week, I found accuracy assessment is really important in remote sensing, isn’t it?\nIndeed, determining the accuracy of information from remotely sensed data is essential for ensuring its trustworthiness. This can be done through either qualitative or quantitative approaches. Qualitative assessments quickly eye-check the data or maps to see if they make sense with what’s actually on the ground. Meanwhile, quantitative assessments dive deeper, pinpointing and measuring mistakes by comparing the data on the maps to actual, on-the-ground reference data. The value of ensuring accuracy in remote sensing cannot be overstated; such data plays a pivotal role in mapping and crafting environmental models that guide management decisions and policy-making.\nA quiz for you- In the lecture we also talked about sub-pixel analysis, can you summarize something?\nIn general, Sub-pixel analysis overcomes the limitations of conventional pixel-based classification by providing increased detail in land cover mapping and monitoring. This is crucial for ensuring precise environmental evaluations and enabling well-informed choices regarding land management and conservation.\nFair enough, Let’s explore some relative literature and applications.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 8 - classification 2</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 8 - classification 2</span>"
     ]
   },
   {
     "objectID": "week8.html#overview",
     "href": "week8.html#overview",
-    "title": "8  week 8 - classification 2",
+    "title": "7  week 8 - classification 2",
     "section": "",
     "text": "Week8 Mind map",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 8 - classification 2</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 8 - classification 2</span>"
     ]
   },
   {
     "objectID": "week8.html#application",
     "href": "week8.html#application",
-    "title": "8  week 8 - classification 2",
-    "section": "8.2 Application",
-    "text": "8.2 Application\nThis week I read a wide range of literature and tried to analyze the development, current challenges and future development directions of remote sensing data classification. (Due to the large number of terminologies, I translated some documents into my mother tongue for reading. There may be errors in professional terms during the expression process, but I will try to improve.)\nIn the early stages, classification methods based on manually designed features provided solutions for the classification of remote sensing images. Subsequently, machine learning, built on the foundation of probability, statistics, and other theories, further improved classification accuracy. The advent of deep learning eliminated the reliance on human experts to design features entirely and led to a qualitative leap in classification accuracy. However, challenges in visualizing and interpreting deep network models and the lack of datasets have restrained further improvements in classification accuracy. In the future, the structures and parameters of deep learning networks will be determined more rapidly and accurately. In practical applications, the depth and width of deep learning systems significantly impact classification performance. Deeper and wider networks can uncover more abstract feature representations in the data, enhancing classification effectiveness. However, excessively large network models increase training consumption, reduce training efficiency, and may decrease the network’s generalizability, leading to overfitting. Balancing classification performance with the effective reduction of network complexity is one of the current research hotspots. With technological advancement, data from various types are growing massively. It is worth considering the integration of multisource heterogeneous data, such as from multiple types of sensors, smart devices, and social networking sites, for remote sensing image classification. Multisource heterogeneous data can provide target image features and information from different aspects. The fusion of different features and information not only retains the effective discriminatory information of the features involved but also reduces the uncertainty of single-source data to some extent, making the classification results more reliable and the outcomes of remote sensing image target classification more comprehensive and accurate.",
+    "title": "7  week 8 - classification 2",
+    "section": "7.2 Application",
+    "text": "7.2 Application\nThis week I read a wide range of literature and tried to analyze the development, current challenges and future development directions of remote sensing data classification. (Due to the large number of terminologies, I translated some documents into my mother tongue for reading. There may be errors in professional terms during the expression process, but I will try to improve.)\nIn the early stages, classification methods based on manually designed features provided solutions for the classification of remote sensing images. Subsequently, machine learning, built on the foundation of probability, statistics, and other theories, further improved classification accuracy. The advent of deep learning eliminated the reliance on human experts to design features entirely and led to a qualitative leap in classification accuracy. However, challenges in visualizing and interpreting deep network models and the lack of datasets have restrained further improvements in classification accuracy. In the future, the structures and parameters of deep learning networks will be determined more rapidly and accurately. In practical applications, the depth and width of deep learning systems significantly impact classification performance. Deeper and wider networks can uncover more abstract feature representations in the data, enhancing classification effectiveness. However, excessively large network models increase training consumption, reduce training efficiency, and may decrease the network’s generalizability, leading to overfitting. Balancing classification performance with the effective reduction of network complexity is one of the current research hotspots. With technological advancement, data from various types are growing massively. It is worth considering the integration of multisource heterogeneous data, such as from multiple types of sensors, smart devices, and social networking sites, for remote sensing image classification. Multisource heterogeneous data can provide target image features and information from different aspects. The fusion of different features and information not only retains the effective discriminatory information of the features involved but also reduces the uncertainty of single-source data to some extent, making the classification results more reliable and the outcomes of remote sensing image target classification more comprehensive and accurate.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 8 - classification 2</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 8 - classification 2</span>"
     ]
   },
   {
     "objectID": "week8.html#reflection",
     "href": "week8.html#reflection",
-    "title": "8  week 8 - classification 2",
-    "section": "8.3 Reflection",
-    "text": "8.3 Reflection\nThrough the previous weeks of study, I felt the close connection between this course and CASA0006: Data Science for Spatial Systems and last semester’s CASA0005: Geographic Information Systems and Science. Words like machine learning and deep learning were repeatedly mentioned and applied in this course, which made me think about the combination of remote sensing technology/space science and artificial intelligence, such as GeoAI, which is changing the way we observe the earth. This combination allows us to analyze changes on Earth and in space more quickly and accurately.",
+    "title": "7  week 8 - classification 2",
+    "section": "7.3 Reflection",
+    "text": "7.3 Reflection\nThrough the previous weeks of study, I felt the close connection between this course and CASA0006: Data Science for Spatial Systems and last semester’s CASA0005: Geographic Information Systems and Science. Words like machine learning and deep learning were repeatedly mentioned and applied in this course, which made me think about the combination of remote sensing technology/space science and artificial intelligence, such as GeoAI, which is changing the way we observe the earth. This combination allows us to analyze changes on Earth and in space more quickly and accurately.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 8 - classification 2</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 8 - classification 2</span>"
     ]
   },
   {
     "objectID": "week8.html#references",
     "href": "week8.html#references",
-    "title": "8  week 8 - classification 2",
-    "section": "8.4 References",
-    "text": "8.4 References\nBarsi, Á., Kugler, Zs., László, I., Szabó, Gy. and Abdulmutalib, H.M., 2018. Accuracy Dimensions in Remote Sensing. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-3, pp. [page range if available]. ISPRS TC III Mid-term Symposium “Developments, Technologies and Applications in Remote Sensing”, 7–10 May, Beijing, China.[Accessed 13 March 2024]\nBruzzone, L. and Demir, B., 2014. A Review of Modern Approaches to Classification of Remote Sensing Data. In: I. Manakos and M. Braun, eds. Land Use and Land Cover Mapping in Europe. Remote Sensing and Digital Image Processing, vol 18. Springer, Dordrecht. https://doi.org/10.1007/978-94-007-7969-3_9.[Accessed 13 March 2024]\nCherrill, A., 1994. A comparison of three landscape classifications and investigation of the potential for using remotely sensed land cover data for landscape classification. Journal of Rural Studies, 10(3), pp.275-289. https://doi.org/10.1016/0743-0167(94)90054-X.[Accessed 12 March 2024]\nFoody, G.M., 2004. Sub-Pixel Methods in Remote Sensing. In: Jong, S.M.D. and Meer, F.D.V. eds. Remote Sensing Image Analysis: Including The Spatial Domain. Remote Sensing and Digital Image Processing, vol 5. Springer, Dordrecht. https://doi.org/10.1007/978-1-4020-2560-0_3.[Accessed 12 March 2024]\nGómez-Chova, L., Tuia, D., Moser, G. and Camps-Valls, G., 2015. Multimodal Classification of Remote Sensing Images: A Review and Future Directions. Proceedings of the IEEE, 103(9), https://doi.org/10.1109/JPROC.2015.2464219.[Accessed 12 March 2024]\nMatarira, D., Mutanga, O., Naidu, M. and Vizzari, M., 2023. Object-Based Informal Settlement Mapping in Google Earth Engine Using the Integration of Sentinel-1, Sentinel-2, and PlanetScope Satellite Data. Land, 12(1), 99. https://doi.org/10.3390/land12010099.[Accessed 15 March 2024]\nPal, M. & Mather, P.M., 2005. Support vector machines for classification in remote sensing. International Journal of Remote Sensing, 26(5), pp.1007-1011. https://doi.org/10.1080/01431160512331314083.[Accessed 15 March 2024]",
+    "title": "7  week 8 - classification 2",
+    "section": "7.4 References",
+    "text": "7.4 References\nBarsi, Á., Kugler, Zs., László, I., Szabó, Gy. and Abdulmutalib, H.M., 2018. Accuracy Dimensions in Remote Sensing. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-3, pp. [page range if available]. ISPRS TC III Mid-term Symposium “Developments, Technologies and Applications in Remote Sensing”, 7–10 May, Beijing, China.[Accessed 13 March 2024]\nBruzzone, L. and Demir, B., 2014. A Review of Modern Approaches to Classification of Remote Sensing Data. In: I. Manakos and M. Braun, eds. Land Use and Land Cover Mapping in Europe. Remote Sensing and Digital Image Processing, vol 18. Springer, Dordrecht. https://doi.org/10.1007/978-94-007-7969-3_9.[Accessed 13 March 2024]\nCherrill, A., 1994. A comparison of three landscape classifications and investigation of the potential for using remotely sensed land cover data for landscape classification. Journal of Rural Studies, 10(3), pp.275-289. https://doi.org/10.1016/0743-0167(94)90054-X.[Accessed 12 March 2024]\nFoody, G.M., 2004. Sub-Pixel Methods in Remote Sensing. In: Jong, S.M.D. and Meer, F.D.V. eds. Remote Sensing Image Analysis: Including The Spatial Domain. Remote Sensing and Digital Image Processing, vol 5. Springer, Dordrecht. https://doi.org/10.1007/978-1-4020-2560-0_3.[Accessed 12 March 2024]\nGómez-Chova, L., Tuia, D., Moser, G. and Camps-Valls, G., 2015. Multimodal Classification of Remote Sensing Images: A Review and Future Directions. Proceedings of the IEEE, 103(9), https://doi.org/10.1109/JPROC.2015.2464219.[Accessed 12 March 2024]\nMatarira, D., Mutanga, O., Naidu, M. and Vizzari, M., 2023. Object-Based Informal Settlement Mapping in Google Earth Engine Using the Integration of Sentinel-1, Sentinel-2, and PlanetScope Satellite Data. Land, 12(1), 99. https://doi.org/10.3390/land12010099.[Accessed 15 March 2024]\nPal, M. & Mather, P.M., 2005. Support vector machines for classification in remote sensing. International Journal of Remote Sensing, 26(5), pp.1007-1011. https://doi.org/10.1080/01431160512331314083.[Accessed 15 March 2024]",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>week 8 - classification 2</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 8 - classification 2</span>"
     ]
   }
 ]

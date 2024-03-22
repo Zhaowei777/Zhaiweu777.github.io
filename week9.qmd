@@ -22,7 +22,15 @@ In summary, while SAR satellite imagery offers unparalleled advantages in its al
 
 ## Reflection
 
+Completing this remote sensing course has profoundly expanded my understanding and skills in utilizing Earth observation data for environmental hazard mitigation, especially within urban sustainability contexts. Through hands-on practice in R and exploring advanced methodologies, I've learned to pre-process imagery, extract meaningful insights from spatial data, and apply these insights to optimize climate mitigation strategies. This experience has not only sharpened my technical abilities but also heightened my awareness of the critical importance of spatial data in shaping effective urban and environmental policies. Armed with this knowledge, I feel prepared to contribute to data-driven solutions for a sustainable future.  I'm deeply grateful for this enriching learning journey and the invaluable insights it has provided.:)
+
 ## References
+
+Jao, J.K., 2001. Theory of synthetic aperture radar imaging of a moving target. IEEE Transactions on Geoscience and Remote Sensing, 39(9), pp.1984-1992. https://doi.org/10.1109/36.951089.
+
+Ouchi, K., 2013. Recent Trend and Advance of Synthetic Aperture Radar with Selected Topics. Remote Sensing, 5(2), pp.716-807. https://doi.org/10.3390/rs5020716.
+
+Schulte to Bühne, H. and Pettorelli, N., 2018. Better together: Integrating and fusing multispectral and radar satellite imagery to inform biodiversity monitoring, ecological research and conservation science. Methods in Ecology and Evolution, 9, pp.849-865. Available at: https://doi.org/10.1111/2041-210X.1294.
 
 
 

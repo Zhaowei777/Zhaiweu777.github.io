@@ -1,7 +1,8 @@
 # Week 2 - Short Presentation
 
-In summary, this book has no content whatsoever.
+```{r echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "https://zhaowei777.github.io/PPT/",
+  ratio = "16:9")
 
-```{r}
-1 + 1
 ```
