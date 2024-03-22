@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CASA0023 Learning Diary",
     "section": "",
-    "text": "About Me\nHello! I’m Zhaowei, a student deeply passionate about art, computer science, and urban science, and an enthusiast of music and photography. I am currently pursuing a master’s degree at The Bartlett Centre for Advanced Spatial Analysis, University College London. Throughout my early education, I focused on honing my creative design and oil painting skills, dreaming of becoming an artist. I completed my Bachelor of Design at the University of Melbourne, where I also took foundational courses in artificial intelligence. During that time, I developed a basic understanding of urban planning, spatial engineering, and architecture, and realized the importance of computer science in everyday life and academia.\nThese are some works from my personal photography studio:\n\n\n\nRemote sensing, akin to an aerial photographer, captures the cities from the heavens above\n\n\nMy current research interests lie in the Internet of Things (IoT) and smart cities. I believe that improving people’s quality of life through data science and computer science is a fascinating endeavor. Remote sensing technology significantly advances urban planning by offering detailed insights into land use and environmental changes, enabling sustainable development and improved resilience against environmental challenges. This website serves as my learning diary for the CASA0027 course, reflecting on and deepening my understanding of remote sensing knowledge. I hope everyone enjoys it and I welcome any criticism or praise!\n\n\n“We can really say that we have achieved a level of remote sensing and Earth observation that we have never had before. We’re in the golden age right now with these satellites.”\n\n\n                                                    —————Tim Newman, USGS National Land Imaging Program coordinator",
+    "text": "About Me",
     "crumbs": [
       "About Me"
     ]
@@ -344,7 +344,7 @@
     "href": "week1.html#references",
     "title": "1  Week 1 - Intro to Remote Sensing",
     "section": "1.4 References",
-    "text": "1.4 References",
+    "text": "1.4 References\nMilne, Anthony Kinnaird. 1986. “The Use of Remote Sensing in Mapping and Monitoring Vegetational Change Associated with Bushfire Events in Eastern Australia.” Geocarto International 1 (1): 25–32.\nNavalgund, R.R., Jayaraman, V. and Roy, P.S., 2007. Remote sensing applications: An overview. Current Science, 93(12), pp.1747-1766. Available at: http://www.jstor.org/stable/24102069.\nVan Westen, CJ. 2000. “Remote Sensing for Natural Disaster Management.” International Archives of Photogrammetry and Remote Sensing 33 (B7/4; PART 7): 1609–17.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Week 1 - Intro to Remote Sensing</span>"
     ]
@@ -397,6 +397,26 @@
     "text": "7.4 References\nBarsi, Á., Kugler, Zs., László, I., Szabó, Gy. and Abdulmutalib, H.M., 2018. Accuracy Dimensions in Remote Sensing. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XLII-3, pp. [page range if available]. ISPRS TC III Mid-term Symposium “Developments, Technologies and Applications in Remote Sensing”, 7–10 May, Beijing, China.[Accessed 13 March 2024]\nBruzzone, L. and Demir, B., 2014. A Review of Modern Approaches to Classification of Remote Sensing Data. In: I. Manakos and M. Braun, eds. Land Use and Land Cover Mapping in Europe. Remote Sensing and Digital Image Processing, vol 18. Springer, Dordrecht. https://doi.org/10.1007/978-94-007-7969-3_9.[Accessed 13 March 2024]\nCherrill, A., 1994. A comparison of three landscape classifications and investigation of the potential for using remotely sensed land cover data for landscape classification. Journal of Rural Studies, 10(3), pp.275-289. https://doi.org/10.1016/0743-0167(94)90054-X.[Accessed 12 March 2024]\nFoody, G.M., 2004. Sub-Pixel Methods in Remote Sensing. In: Jong, S.M.D. and Meer, F.D.V. eds. Remote Sensing Image Analysis: Including The Spatial Domain. Remote Sensing and Digital Image Processing, vol 5. Springer, Dordrecht. https://doi.org/10.1007/978-1-4020-2560-0_3.[Accessed 12 March 2024]\nGómez-Chova, L., Tuia, D., Moser, G. and Camps-Valls, G., 2015. Multimodal Classification of Remote Sensing Images: A Review and Future Directions. Proceedings of the IEEE, 103(9), https://doi.org/10.1109/JPROC.2015.2464219.[Accessed 12 March 2024]\nMatarira, D., Mutanga, O., Naidu, M. and Vizzari, M., 2023. Object-Based Informal Settlement Mapping in Google Earth Engine Using the Integration of Sentinel-1, Sentinel-2, and PlanetScope Satellite Data. Land, 12(1), 99. https://doi.org/10.3390/land12010099.[Accessed 15 March 2024]\nPal, M. & Mather, P.M., 2005. Support vector machines for classification in remote sensing. International Journal of Remote Sensing, 26(5), pp.1007-1011. https://doi.org/10.1080/01431160512331314083.[Accessed 15 March 2024]",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>week 8 - classification 2</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#acknowledgement",
+    "href": "index.html#acknowledgement",
+    "title": "CASA0023 Learning Diary",
+    "section": "Acknowledgement",
+    "text": "Acknowledgement\nI extend my sincerest thanks to Dr. Maclachlan and Dr. Ballinger for their invaluable guidance, to our PGTAs for their unwavering support, and to my fellow group members of the FloraDemeter Visionaries.",
+    "crumbs": [
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "CASA0023 Learning Diary",
+    "section": "Introduction",
+    "text": "Introduction\nHello! I’m Zhaowei, a student deeply passionate about art, computer science, and urban science, and an enthusiast of music and photography. I am currently pursuing a master’s degree at The Bartlett Centre for Advanced Spatial Analysis, University College London. Throughout my early education, I focused on honing my creative design and oil painting skills, dreaming of becoming an artist. I completed my Bachelor of Design at the University of Melbourne, where I also took foundational courses in artificial intelligence. During that time, I developed a basic understanding of urban planning, spatial engineering, and architecture, and realized the importance of computer science in everyday life and academia.\nThese are some works from my personal photography studio:\n\n\n\nRemote sensing, akin to an aerial photographer, captures the cities from the heavens above\n\n\nMy current research interests lie in the Internet of Things (IoT) and smart cities. I believe that improving people’s quality of life through data science and computer science is a fascinating endeavor. Remote sensing technology significantly advances urban planning by offering detailed insights into land use and environmental changes, enabling sustainable development and improved resilience against environmental challenges.\nIn daily life, there have always been ‘two’ mes: one who loves art and the other who loves computer science. This diary was jointly completed by these ‘two’ mes. The part of me that loves art (in blue font) converses with the part that loves computer science (in black font) during the writing of this diary. The dialogue between these two sides of me together completes this diary.\nThis website serves as my learning diary for the CASA0027 course, reflecting on and deepening my understanding of remote sensing knowledge. I hope everyone enjoys it and I welcome any criticism or praise!\n\n\n“We can really say that we have achieved a level of remote sensing and Earth observation that we have never had before. We’re in the golden age right now with these satellites.”\n\n\n                                                    —————Tim Newman, USGS National Land Imaging Program coordinator",
+    "crumbs": [
+      "About Me"
     ]
   }
 ]
