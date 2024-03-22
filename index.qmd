@@ -14,6 +14,8 @@ These are some works from my personal photography studio:
 
 My current research interests lie in the Internet of Things (IoT) and smart cities. I believe that improving people's quality of life through data science and computer science is a fascinating endeavor. Remote sensing technology significantly advances urban planning by offering detailed insights into land use and environmental changes, enabling sustainable development and improved resilience against environmental challenges. 
 
+![](image/111.jpg)
+
 In daily life, there have always been 'two' mes: one who loves art and the other who loves computer science. This diary was jointly completed by these 'two' mes. [The part of me that loves art (in blue font)]{style="color:blue;"} converses with the part that loves computer science (in black font) during the writing of this diary. The dialogue between these two sides of me together completes this diary.
 
 This website serves as my learning diary for the CASA0027 course, reflecting on and deepening my understanding of remote sensing knowledge. I hope everyone enjoys it and I welcome any criticism or praise!
