@@ -8,7 +8,7 @@ NASA defined Remote sensing as an acquisition of information from a distance. In
 
 Its implementation is through sensors mounted on various platforms: like Satellites, Airplanes (for aerial imagery), Drones and Smartphones. There are over 150 satellites in orbit equipped with sensors for remote sensing.
 
-![Remote sensing](image/image1.png) 
+![Remote sensing](image/image1.png)
 
 [Oh,I see,easy one. What types of sensors are there?]{style="color:blue;"}
 
@@ -42,7 +42,7 @@ Raster data is typically obtained through remote sensing; however, this varies d
 
 1)Spatial resolution: defines the ability to resolve spatially close objects and to identify small objects, which is expressed by Ground Sampling Distance (pixel size on the ground). The GSD is influenced by factors such as the altitude of the sensor, the sensor's optical characteristics, and the pixel size of the sensor array. More detailed images are possible with higher spatial resolution (smaller pixel sizes), which highlights smaller features in the observed region.
 
-![Frequency, Speed and the Wave-length](image/image4.png) 
+![Frequency, Speed and the Wave-length](image/image4.png)
 
 Spatial resolution (geometric) o Low resolution \>= 30m \< 300m o Medium resolution \>= 5 \< 30m o High resolution \>= 2m \< 5m o Very high resolution \< 2m
 
@@ -62,7 +62,7 @@ o Panchromatic (wide bandwidth, visible range of spectrum) o Multispectral \>= 3
 
 For example:
 
-8 bit = 256 possible values; 1 bit = 2 possible values ![Mosque of Hassan II, Casablanca, Morocco](image/image6.png) 
+8 bit = 256 possible values; 1 bit = 2 possible values ![Mosque of Hassan II, Casablanca, Morocco](image/image6.png)
 
 Images above clearly illustrute that the 8-bit image has better quality than the 1-bit one.
 
@@ -116,6 +116,4 @@ Based on what I've learnt about remote sensing this week, I believe that remote 
 
 With their combination, plus the utilisation of new technologies such as artificial intelligence and cloud computing. There is an opportunity for a whole host of new ways to protect critical infrastructure, preserve the environment and improve human life.
 
-```{r}
-1 + 1
-```
+## References
