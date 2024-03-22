@@ -1,3 +1,51 @@
 # week 6 - intro to GEE
 
-![Mind map](image/week6Image.png)
+## Overview
+
+![Week6 Mind map](image/week6Image.png)
+
+[I'm currently learning how to use GEE and I found a video to start it as a beginner!]{style="color:blue;"}
+
+{{< video https://youtu.be/5fQn_CMPwfU?si=5IIgG-jvslbf8jCz >}}
+
+[In this week’s lecture, we talked about "Loops and Mapping", can you explain a little bit more?]{style="color:blue;"}
+
+"Loops and Mapping" in GEE emphasizes a key distinction in managing repetitive tasks. Loops are frequently used in traditional programming to repeat tasks, however, because GEE uses a server-based data architecture, they are inefficient. Rather, GEE prefers "Mapping," an approach that effectively applies a function to every element (such as features or images) in a collection. Mapping aligns with GEE's cloud processing, allowing for parallel, distributed computations over large datasets, making it a preferred method for scalability and performance.
+
+[I see! Then let’s talk about "reducing images".]{style="color:blue;"}
+
+The action of "reducing images" in GEE entails condensing large image databases into simpler forms. It is possible to employ many techniques in image analysis, such as calculating median values to reduce noise, conducting zonal statistics within certain regions to comprehend changes, or utilizing the `reduceRegion` function to obtain average values inside a geographical border. It's essential for extracting meaningful information from complex spatial data efficiently.
+
+[Last question- Linear regression in GEE?]{style="color:blue;"} 
+
+GEE uses linear regression to examine the changes in pixel values over time across satellite images. By integrating a temporal variable into images and using the `ee.Reducer` function, calculating the slopes and intercepts for each pixel, allows for the identification of trends such as vegetation growth or urban development. This approach offers an in-depth comprehension of environmental changes with accuracy in both time and space(Google Earth Engine, 2023).
+
+## Applications
+
+Google Earth Engine makes remote sensing analysis more efficient. Its advantage is that it is a geospatial processing platform based on cloud computing and provides free access to a large amount of satellite data, so it is widely used in various fields. A total of 90 journals published articles on GEE between 2020 and 2022, demonstrating the multidisciplinary applications of the GEE platform - including deforestation, natural disasters, infectious diseases, agriculture, water management, climate monitoring and geological resources(Amani et al., 2020)
+
+![Categorization of GEE applications by discipline.(Tamiminia et al., 2020)](image/week601.png)
+
+Earth Engine is also unique in that it not only serves traditional remote sensing scientists but also targets a broad range of non-technical users. However, even if many users can use the R language, they still need to spend time studying the GEE language, because Google Earth Engine requires JavaScript or Python programming language to write code. Meanwhile, GEE also has some issues related to data privacy(Zhao et al., 2021). The advantages and limitations of GEE are presented in the following table:
+
+![Merits and limitations of GEE and GE.(Zhao et al., 2021)](image/week602.png)
+
+I found a case demonstrates the great potential of GEE technology in the agricultural field. Sydney startup Regrow Ag uses Google Earth Engine (GEE) technology to achieve innovative applications in the agricultural field. By analyzing satellite images to measure agricultural carbon sequestration and improve crop yields, Regrow Ag has attracted big customers like Kellogg’s and successfully raised $50 million in Series B funding(Dalton, 2022). 
+
+![An example of a grower’s dashboard of fields analysed by Regrow Ag.](image/week603.png)
+
+## Reflection
+
+GEE has built a shared platform to promote interdisciplinary research. This reminds me that in the Internet of Things, interdisciplinary research is also the core. In today's era of rapid technological development, independent disciplines should seek multi-faceted cooperation. At the same time, the openness and easy access of GEE have also greatly promoted the development of global education, especially in developing countries with limited resources. This will go a long way to narrowing the digital divide around the world and promoting educational equity.
+
+## References
+
+Amani, M., Ghorbanian, A., Ahmadi, S.A., Kakooei, M., Moghimi, A., Mirmazloumi, S.M., Alizadeh Moghaddam, S.H., Mahdavi, S., Ghahremanloo, M., Parsian, S., Wu, Q. and Brisco, B., 2020. Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 13, pp.5326-5350. https://doi.org/10.1109/JSTARS.2020.3021052.
+
+Dalton, A., 2022. Sydney start-up Regrow Ag first to harness Google Earth Engine. The Sydney Morning Herald. [online] Available at: https://www.smh.com.au/business/entrepreneurship/sydney-start-up-regrow-ag-first-to-harness-google-earth-engine-20220801-p5b69d.html [Accessed 25 February 2024].
+
+Tamiminia, H., Salehi, B., Mahdianpari, M., Quackenbush, L., Adeli, S. and Brisco, B., 2020. Google Earth Engine for geo-big data applications: A meta-analysis and systematic review. ISPRS Journal of Photogrammetry and Remote Sensing. https://doi.org/10.1016/j.isprsjprs.2020.04.001 [Accessed 25 February 2024].
+
+Zhao, Q., Yu, L., Li, X., Peng, D., Zhang, Y. and Gong, P., 2021. Progress and trends in the application of Google Earth and Google Earth Engine. Remote Sensing, 13(18), 3778. Available at: https://doi.org/10.3390/rs13183778 [Accessed 25 February 2024].
+
+

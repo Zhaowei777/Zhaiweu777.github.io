@@ -4,7 +4,7 @@
 
 [Do you remember the 2019–20 bushfires in Sydney? You and I were both in Melbourne at the time, and we were also affected]{style="color:blue;"}
 
-I do.It was a tragedy. Those people, animals, and plants that lost their lives in that fire- R.I.P.. Today, let's explore the application of remote sensing technology in assessing burn scars after bushfire, in conjunction with relevant policies.
+I do. It was a tragedy. Those people, animals, and plants that lost their lives in that fire- R.I.P.. Today, let's explore the application of remote sensing technology in assessing burn scars after bushfire, in conjunction with relevant policies.
 
 {{< video https://youtu.be/lkTN08LmNK4?si=8V-O0LYZwbji8IGQ >}}
 

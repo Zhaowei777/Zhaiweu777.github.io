@@ -114,7 +114,7 @@
     "href": "week6.html",
     "title": "6  week 6 - intro to GEE",
     "section": "",
-    "text": "Mind map",
+    "text": "6.1 Overview\nI’m currently learning how to use GEE and I found a video to start it as a beginner!\nIn this week’s lecture, we talked about “Loops and Mapping”, can you explain a little bit more?\n“Loops and Mapping” in GEE emphasizes a key distinction in managing repetitive tasks. Loops are frequently used in traditional programming to repeat tasks, however, because GEE uses a server-based data architecture, they are inefficient. Rather, GEE prefers “Mapping,” an approach that effectively applies a function to every element (such as features or images) in a collection. Mapping aligns with GEE’s cloud processing, allowing for parallel, distributed computations over large datasets, making it a preferred method for scalability and performance.\nI see! Then let’s talk about “reducing images”.\nThe action of “reducing images” in GEE entails condensing large image databases into simpler forms. It is possible to employ many techniques in image analysis, such as calculating median values to reduce noise, conducting zonal statistics within certain regions to comprehend changes, or utilizing the reduceRegion function to obtain average values inside a geographical border. It’s essential for extracting meaningful information from complex spatial data efficiently.\nLast question- Linear regression in GEE?\nGEE uses linear regression to examine the changes in pixel values over time across satellite images. By integrating a temporal variable into images and using the ee.Reducer function, calculating the slopes and intercepts for each pixel, allows for the identification of trends such as vegetation growth or urban development. This approach offers an in-depth comprehension of environmental changes with accuracy in both time and space(Google Earth Engine, 2023).",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
     ]
@@ -197,6 +197,46 @@
     "text": "4.4 Refences\nGerasopoulos, E., Bailey, J., Athanasopoulou, E., Speyer, O., Kocman, D., Raudner, A., Tsouni, A., Kontoes, H., Johansson, C., Georgiadis, C., Matthias, V., Kussul, N., Aquilino, M., Paasonen, P., 2022. Earth observation: An integral part of a smart and sustainable city. Environmental Science & Policy, 132, pp.296-307.\nKadhim, N., Mourshed, M. and Bray, M., 2016. Advances in remote sensing applications for urban sustainability. Euro-Mediterranean Journal of Environmental Integration, 1, 7.\nMashhadi, N. and Alganci, U., 2021. Determination of forest burn scar and burn severity from free satellite images: a comparative evaluation of spectral indices and machine learning classifiers. International Journal of Environment and Geoinformatics, 8(4), pp.488-497. Available at: https://doi.org/10.30897/ijegeo.879669 [Accessed 4 February 2024].\nNSW Rural Fire Service, 2019. Planning for Bush Fire Protection: A guide for councils, planners, fire authorities and developers. NSW Rural Fire Service, November. ISBN 978-0-646-99126-9.\nSmith, R., 2016. Firebreak Location, Construction and Maintenance Guidelines. Fire and Emergency Services Authority of Western Australia, Perth. ISBN 978-0-9806116-6-3.\nWellmann, T., Lausch, A., Andersson, E., Knapp, S., Cortinovis, C., Jache, J., Scheuer, S., Kremer, P., Mascarenhas, A., Kraemer, R., Haase, A., Schug, F., Haase, D., 2020. Remote sensing in urban planning: Contributions towards ecologically sound policies? Landscape and Urban Planning, 204, 103921.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>week 4 - policy</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#overview",
+    "href": "week6.html#overview",
+    "title": "6  week 6 - intro to GEE",
+    "section": "",
+    "text": "Week6 Mind map",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#applications",
+    "href": "week6.html#applications",
+    "title": "6  week 6 - intro to GEE",
+    "section": "6.2 Applications",
+    "text": "6.2 Applications\nGoogle Earth Engine makes remote sensing analysis more efficient. Its advantage is that it is a geospatial processing platform based on cloud computing and provides free access to a large amount of satellite data, so it is widely used in various fields. A total of 90 journals published articles on GEE between 2020 and 2022, demonstrating the multidisciplinary applications of the GEE platform - including deforestation, natural disasters, infectious diseases, agriculture, water management, climate monitoring and geological resources(Amani et al., 2020)\n\n\n\nCategorization of GEE applications by discipline.(Tamiminia et al., 2020)\n\n\nEarth Engine is also unique in that it not only serves traditional remote sensing scientists but also targets a broad range of non-technical users. However, even if many users can use the R language, they still need to spend time studying the GEE language, because Google Earth Engine requires JavaScript or Python programming language to write code. Meanwhile, GEE also has some issues related to data privacy(Zhao et al., 2021). The advantages and limitations of GEE are presented in the following table:\n\n\n\nMerits and limitations of GEE and GE.(Zhao et al., 2021)\n\n\nI found a case demonstrates the great potential of GEE technology in the agricultural field. Sydney startup Regrow Ag uses Google Earth Engine (GEE) technology to achieve innovative applications in the agricultural field. By analyzing satellite images to measure agricultural carbon sequestration and improve crop yields, Regrow Ag has attracted big customers like Kellogg’s and successfully raised $50 million in Series B funding(Dalton, 2022).\n\n\n\nAn example of a grower’s dashboard of fields analysed by Regrow Ag.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#reflection",
+    "href": "week6.html#reflection",
+    "title": "6  week 6 - intro to GEE",
+    "section": "6.3 Reflection",
+    "text": "6.3 Reflection\nGEE has built a shared platform to promote interdisciplinary research. This reminds me that in the Internet of Things, interdisciplinary research is also the core. In today’s era of rapid technological development, independent disciplines should seek multi-faceted cooperation. At the same time, the openness and easy access of GEE have also greatly promoted the development of global education, especially in developing countries with limited resources. This will go a long way to narrowing the digital divide around the world and promoting educational equity.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
+    ]
+  },
+  {
+    "objectID": "week6.html#references",
+    "href": "week6.html#references",
+    "title": "6  week 6 - intro to GEE",
+    "section": "6.4 References",
+    "text": "6.4 References\nAmani, M., Ghorbanian, A., Ahmadi, S.A., Kakooei, M., Moghimi, A., Mirmazloumi, S.M., Alizadeh Moghaddam, S.H., Mahdavi, S., Ghahremanloo, M., Parsian, S., Wu, Q. and Brisco, B., 2020. Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 13, pp.5326-5350. https://doi.org/10.1109/JSTARS.2020.3021052.\nDalton, A., 2022. Sydney start-up Regrow Ag first to harness Google Earth Engine. The Sydney Morning Herald. [online] Available at: https://www.smh.com.au/business/entrepreneurship/sydney-start-up-regrow-ag-first-to-harness-google-earth-engine-20220801-p5b69d.html [Accessed 25 February 2024].\nTamiminia, H., Salehi, B., Mahdianpari, M., Quackenbush, L., Adeli, S. and Brisco, B., 2020. Google Earth Engine for geo-big data applications: A meta-analysis and systematic review. ISPRS Journal of Photogrammetry and Remote Sensing. https://doi.org/10.1016/j.isprsjprs.2020.04.001 [Accessed 25 February 2024].\nZhao, Q., Yu, L., Li, X., Peng, D., Zhang, Y. and Gong, P., 2021. Progress and trends in the application of Google Earth and Google Earth Engine. Remote Sensing, 13(18), 3778. Available at: https://doi.org/10.3390/rs13183778 [Accessed 25 February 2024].",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>week 6 - intro to GEE</span>"
     ]
   }
 ]
